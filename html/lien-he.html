@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="vi">
+    <head>
+        <title>Trang chủ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style4.css">
+        <script src="../js/script2.js"></script>
+    </head>
+
+    <body>
+        <div class="pageContainer">
+            <!-- Header -->
+            <div class="pageHeader">
+                <div class="logo">
+                    <a href="../index.html" style="text-decoration: none; color: inherit;">
+                        <img src="../assets/Logo_bussiness.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Hoài Linh Portfolio</span>
+
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm nội dung... (ví dụ: Giới thiệu, Sản phẩm)">
+                    <button type="button" id="searchBtn">Tìm</button>
+                </div>
+
+                <nav class="navigation">
+                    <ul class="navList">
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                        <li><a href="san-pham.html">Sản phẩm</a></li>
+                        
+                        <li><a href="quan-ly.html">Quản lý sản phẩm</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="pageContent">
+                <div class="page-title-bar">
+                    <span>Liên hệ</span>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-grid">
+                        <div class="contact-box-info">
+                            <h3>Thông Tin Liên Hệ</h3>
+                            <p class="contact-desc">Đừng ngần ngại liên hệ với chúng tôi nếu bạn có bất kỳ thắc mắc hay góp ý nào về sản phẩm và dịch vụ.</p>
+                            <hr class="contact-divider">
+                            <ul>
+                                <li><strong>Địa chỉ:</strong>300, đường Điện Biên Phủ, K3, Phường Trà Vinh, Vĩnh Long</li>
+                                <li><strong>Hotline:</strong>0379 580 060 - 0393 008 606</li>
+                                <li><strong>Email hỗ trợ:</strong> support@linhtechstore.com</li>
+                                <li><strong>Thời gian làm việc:</strong>Thứ 2 - Chủ Nhật (07:30 - 21:00)</li>
+                            </ul>
+                        </div>
+                        <div class="contact-box-form">
+                            <form id="contact-frm">
+                                <div class="input-group">
+                                    <label>Họ và tên: </label>
+                                    <input type="text" id="contact-name" name="contact-name" placeholder="Chúng tôi có thể gọi bạn là...">
+                                </div>
+                                <div class="input-group">
+                                    <label>Email liên hệ: </label>
+                                    <input type="email" id="contact-email" name="contact-email" placeholder="Chúng tôi sẽ liên hệ với bạn qua...">
+                                </div>
+                                <div class="input-group">
+                                    <label>Nội dung lời nhắn: </label>
+                                    <textarea id="contact-msg" name="contact-msg" placeholder="Bạn đang gặp vấn đề gì cần sự trợ giúp"></textarea>
+                                </div>
+                                <button type="button" class="btn-send" onclick="handleContactSubmit()">Gửi liên hệ ngay</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="pageFooter">
+                <p>Ngô Hoài Linh</p>
+                <p>Mã sinh viên: 110124106</p>
+                <p>Mã Lớp: DA24TTA</p>
+                <p>Ngành: Công nghệ thông tin</p>
+                <p>Email: <a href="mailto:ngohoailinh2k6@gmail.com">ngohoailinh2k6@gmail.com</a></p>
+            </div>
+        </div>
+    </body>
+</html>

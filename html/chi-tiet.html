@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Chi tiết sản phẩm</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="../css/style2.css">
+    </head>
+
+    <body>
+         <div class="pageContainer">
+            <!-- Header -->
+            <div class="pageHeader">
+                <div class="logo">
+                    <a href="../index.html" style="text-decoration: none; color: inherit;">
+                        <img src="../assets/Logo_bussiness.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Hoài Linh Portfolio</span>
+
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm nội dung... (ví dụ: Giới thiệu, Sản phẩm)">
+                    <button type="button" id="searchBtn">Tìm</button>
+                </div>
+
+                <nav class="navigation">
+                    <ul id="navList">
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                        <li><a href="san-pham.html">Sản phẩm</a></li>
+                        <li><a href="gio-hang.html">Giỏ Hàng</a></li>
+                        <li><a href="quan-ly.html">Quản lý sản phẩm</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="pageContent">
+                <div class="info-detail">
+                    <div class="product-essential">
+                        <div class="product-img">
+                            <img src="#" alt="#" class="info-img">
+                        </div>
+                        <div class="product-info-main">
+                            <h1 class="info-name"></h1>
+                            <div class="info-price">
+                                <span class="label">Giá bán:</span>
+                                <span class="price"></span>
+                            </div>
+                            <button class="btn-buy" onclick="addProductToCart()">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="product-info-additional">
+                        <h2>Đặc điểm nổi bật</h2>
+                       <p class="info-desc"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="pageFooter">
+                <p>Ngô Hoài Linh</p>
+                <p>Mã sinh viên: 110124106</p>
+                <p>Mã Lớp: DA24TTA</p>
+                <p>Ngành: Công nghệ thông tin</p>
+                <p>Email: <a href="mailto:ngohoailinh2k6@gmail.com">ngohoailinh2k6@gmail.com</a></p>
+            </div>
+        </div>
+        <script type="module">
+            import {defaultproducts} from "../db/products.js";
+
+            const params = new URLSearchParams(window.location.search);
+            const idcanTim = params.get('id');
+            const spTimThay = defaultproducts.find(p => p.id === idcanTim);
+            if(spTimThay){
+                document.getElementsByClassName("info-img")[0].src = spTimThay.image;
+                document.getElementsByClassName("product-img")[0].alt = spTimThay.name;
+                document.getElementsByClassName("info-name")[0].innerText = spTimThay.name;
+                document.getElementsByClassName("price")[0].innerText =spTimThay.price.toLocaleString() + " " + spTimThay.currency;
+                document.getElementsByClassName("info-desc")[0].innerText = spTimThay.description;
+            }
+            function addProductToCart(){
+                addToCart(spTimThay.id, spTimThay.name, spTimThay.price.toLocaleString(), spTimThay.image);
+            }
+            function addToCart(productId, productName, productPrice, productImg) {
+                // 1. Lấy giỏ hàng cũ ra, nếu chưa có thì tạo mảng rỗng []
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                // 2. Kiểm tra xem sản phẩm này đã có trong giỏ chưa
+                let existProduct = cart.find(item => item.id === productId);
+
+                if (existProduct) {
+                    existProduct.quantity += 1; // Có rồi thì tăng số lượng
+                } else {
+                    // Chưa có thì thêm mới vào mảng (Phải chuẩn tên thuộc tính id, name, price, quantity, img)
+                    cart.push({
+                        id: productId,
+                        name: productName,
+                        price: productPrice,
+                        quantity: 1,
+                        img: productImg
+                    });
+                }
+
+                // 3. 🌟 QUAN TRỌNG NHẤT: Lưu lại vào localStorage với key là 'cart'
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                alert("Đã thêm sản phẩm vào giỏ hàng thành công!");
+            }
+        </script>
+    </body>
+</html>

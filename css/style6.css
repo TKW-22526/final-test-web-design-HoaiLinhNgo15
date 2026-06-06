@@ -87,59 +87,6 @@ body{
     color: #38bdf8;
 }
 
-/*Dinh dang content*/
-.welcome-section {
-    text-align: center; 
-    padding: 40px 20px; 
-    background: linear-gradient(135deg, #1e293b, #334155); 
-    color: #fff; 
-    border-radius: 8px; 
-    margin-bottom: 30px;
-}
-
-.welcome-section h2{
-    font-size: 28px; 
-    margin-bottom: 10px;
-}
-
-.welcome-section p{
-    font-size: 16px;
-    color: #cbd5e1;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-.project-summary{
-    flex: 1;
-    min-width: 280px;
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    border: 1px solid #e2e8f0;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
-}
-.project-summary h3{
-    color: #1e293b; 
-    border-bottom: 2px solid #38bdf8; 
-    padding-bottom: 10px; 
-    margin-bottom: 15px;
-}
-.project-summary p{
-    line-height: 1.6; 
-    color: #475569; 
-    font-size: 15px; 
-    margin-bottom: 15px;
-}
-
-.action-buttons{
-    display: flex;
-    gap: 10px;
-}
-
 /*dinh dang footer*/
 .pageFooter {
     background-color: #0f172a;
@@ -147,4 +94,17 @@ body{
     text-align: center;
     padding: 15px;
     font-size: 14px;
+}
+.pageContent{
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+#product-frm{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-width: 500px;
 }

@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/*dinh dang header*/
+.pageHeader {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo .logo-img{
+    width: auto;
+    max-height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo .logo-text {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.search-box{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.search-box #searchInput{
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-box #searchBtn{
+    background-color: #38bdf8;
+    border: none;
+    color: #0f172a;
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.search-box #searchBtn:hover{
+    background-color: #0ea5e9;
+}
+
+.pageHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.pageHeader ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.pageHeader ul li a:hover {
+    color: #38bdf8;
+}
+
+/*dinh dang footer*/
+.pageFooter {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/*định dạng nội dung*/
+.info-detail {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-essential{
+    display: flex;
+    gap: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin: 30px;
+}
+
+.product-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 350px;
+}
+
+.product-img img{
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+}
+
+.product-info-main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-info-main h1{
+    font-size: 28px;
+    color: #1e293b;
+    margin: 15px;
+}
+.product-info-main .info-price{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-info-main .label{
+    color: #64748b;
+}
+
+.product-info-main .price{
+    color: #ef4444;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.btn-buy{
+    background-color: #1e293b;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: fit-content;
+}
+
+.btn-buy:hover{
+    background-color: #38bdf8;
+    color: #1e293b;
+}
+
+.product-info-additional{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.product-info-additional h2{
+    font-size: 20px;
+    color: #1e293b;
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+
+}
+.product-info-additional p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #334155;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .product-essential{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

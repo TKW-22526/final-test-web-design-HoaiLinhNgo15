@@ -175,10 +175,10 @@ Sinh viên cần nộp đầy đủ các nội dung sau:
 Sinh viên cập nhật thông tin cá nhân tại đây:
 
 ```text
-Họ và tên:
-Mã số sinh viên:
-Lớp:
-Tên đề tài:
-Liên kết GitHub repository:
-Liên kết GitHub Pages:
+Họ và tên: Ngô Hoài Linh
+Mã số sinh viên: 110124106
+Lớp: DA24TTA
+Tên đề tài: Electronic products static website (website tĩnh bán sản phẩm điện tử)
+Liên kết GitHub repository: https://github.com/TKW-22526/final-test-web-design-HoaiLinhNgo15.git
+Liên kết GitHub Pages: https://tkw-22526.github.io/final-test-web-design-HoaiLinhNgo15/
 ```

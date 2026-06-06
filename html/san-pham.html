@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Các sản phẩm điện tử</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="../css/style1.css">
+    </head>
+
+    <body>
+        <div class="pageContainer">
+            <!-- Header -->
+            <div class="pageHeader">
+                <div class="logo">
+                    <a href="../index.html" style="text-decoration: none; color: inherit;">
+                        <img src="../assets/Logo_bussiness.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Hoài Linh Portfolio</span>
+
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm nội dung... (ví dụ: Giới thiệu, Sản phẩm)">
+                    <button type="button" id="searchBtn">Tìm</button>
+                </div>
+
+                <nav class="navigation">
+                    <ul id="navList">
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                        <li><a href="san-pham.html">Sản phẩm</a></li>
+                        
+                        <li><a href="quan-ly.html">Quản lý sản phẩm</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="pageContent">
+                <div class="product-list"></div>
+            </div>
+            <!-- Footer -->
+            <div class="pageFooter">
+                <p>Ngô Hoài Linh</p>
+                <p>Mã sinh viên: 110124106</p>
+                <p>Mã Lớp: DA24TTA</p>
+                <p>Ngành: Công nghệ thông tin</p>
+                <p>Email: <a href="mailto:ngohoailinh2k6@gmail.com">ngohoailinh2k6@gmail.com</a></p>
+            </div>
+        </div>
+        <script type="module">
+            import {renderProductsGrid} from "../js/lib.js";
+
+            renderProductsGrid();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/*dinh dang header*/
+.pageHeader {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo .logo-img{
+    width: auto;
+    max-height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo .logo-text {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.search-box{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.search-box #searchInput{
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-box #searchBtn{
+    background-color: #38bdf8;
+    border: none;
+    color: #0f172a;
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.search-box #searchBtn:hover{
+    background-color: #0ea5e9;
+}
+
+.pageHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.pageHeader ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.pageHeader ul li a:hover {
+    color: #38bdf8;
+}
+
+/*dinh dang footer*/
+.pageFooter {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.pageContent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    min-height: 85vh;
+    overflow: hidden;
+}
+
+.page-title-bar{
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact-content{
+    max-width: 1100px;
+    padding: 40px 20px 60px 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.contact-box-info, .contact-box-form {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.contact-box-info h3 {
+    margin: 0 0 15px 0;
+    color: #38bdf8;
+    font-size: 22px;
+}
+.contact-desc{
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact-divider {
+    border: 0;
+    border-top: 1px solid #334155;
+    margin-bottom: 20px;
+}
+
+.contact-box-info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-box-info ul li {
+    margin-bottom: 18px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.contact-box-infoul li strong {
+    color: #f8fafc;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.input-group{
+    margin-top: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.input-group input, .input-group textarea{
+    width: 100%;
+    padding: 12px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #f8fafc;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.2s   ;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.input-group textarea{
+    height: 120px;
+    resize: none;
+}
+
+.btn-send {
+    background-color: #0ea5e9;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-send:hover {
+    background: #0284c7;
+}
+
+@media (max-width: 850px) {
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}

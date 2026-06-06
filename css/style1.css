@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/*dinh dang header*/
+.pageHeader {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo .logo-img{
+    width: auto;
+    max-height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.logo .logo-text {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.search-box{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.search-box #searchInput{
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-box #searchBtn{
+    background-color: #38bdf8;
+    border: none;
+    color: #0f172a;
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.search-box #searchBtn:hover{
+    background-color: #0ea5e9;
+}
+
+.pageHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.pageHeader ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.pageHeader ul li a:hover {
+    color: #38bdf8;
+}
+/*dinh dang footer*/
+.pageFooter {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.pageContent {
+    padding: 40px 5%;
+    background-color: #f8fafc;
+}
+/*dinh dang hien thi san pham*/
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Tự động chia cột đều và responsive */
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/**Dinh dang kich thuoc cho moi san pham**/
+/*Product card*/
+.product {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3 ease; /*hiệu ứng mượt*/
+}
+.product:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+/*dinh dang hinh anh san pham*/
+.product-image-frame {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.product-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-list h3{
+    font-size: 18px;
+    color: #1e293b;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.product-price{
+    font-size: 16px;
+    color: #ef4444;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.product-detail{
+    display: block;
+    background-color: #1e293b;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.product-detail:hover{
+    background-color: #38bdf8;
+    color: #1e293b;
+}
+@media (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* Màn hình máy tính bảng: 2 sản phẩm/hàng */
+    }
+}
+
+@media (max-width: 600px) {
+    .product-list {
+        grid-template-columns: 1fr; /* Màn hình điện thoại: 1 sản phẩm/hàng */
+    }
+}

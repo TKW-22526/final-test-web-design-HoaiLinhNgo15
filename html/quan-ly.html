@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="vi">
+    <head>
+        <title>Trang chủ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style6.css">
+    </head>
+
+    <body>
+        <div class="pageContainer">
+            <!-- Header -->
+            <div class="pageHeader">
+                <div class="logo">
+                    <a href="../index.html" style="text-decoration: none; color: inherit;">
+                        <img src="../assets/Logo_bussiness.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Hoài Linh Portfolio</span>
+
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm nội dung... (ví dụ: Giới thiệu, Sản phẩm)">
+                    <button type="button" id="searchBtn">Tìm</button>
+                </div>
+
+                <nav class="navigation">
+                    <ul class="navList">
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                        <li><a href="san-pham.html">Sản phẩm</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="pageContent">
+                    <h2>Hệ thống quản lý sản phẩm (Admin)</h2>
+                    <form id="product-frm">
+                        <h3 id="frm-title">Thêm sản phẩm mới</h3>
+                        <!--ID sản phẩm, mặc định ẩn-->
+                        <input type="hidden" name="product-id" id="product-id"> 
+                        <!--Ô nhập tên sản phẩm-->
+                        <div style="margin-bottom: 10px;">
+                            <label for="product-name" style="display: block; margin-bottom: 5px;">Tên sản phẩm: </label>
+                            <input type="text" name="product-name" id="product-name" style="width:100%; padding:8px;" required placeholder="Nhập tên sản phẩm">
+                        </div>
+                        <!--Ô nhập giá bán-->
+                        <div style="margin-bottom: 10px;">
+                            <label for="product-price" style="display: block; margin-bottom: 5px;">Giá bán: </label>
+                            <input type="text" name="product-price" id="product-price" style="width:100%; padding:8px;" required placeholder="Nhập giá bán theo VND">
+                        </div>
+                        <!--Ô nhập link ảnh sản phẩm-->
+                        <div style="margin-bottom: 15px;">
+                            <label for="product-img" style="display: block; margin-bottom: 5px;">Đường dẫn hình ảnh: </label>
+                            <input type="text" name="product-img" id="product-img" style="width:100%; padding:8px;" required placeholder="URL hoặc ../assets/...">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label for="product-status" style="display: block; margin-bottom: 5px;">Trạng thái sản phẩm: </label>
+                            <select id="product-status">
+                                <option value="active" selected>Còn hàng</option>
+                                <option value="inactive">Hết hàng</option>
+                            </select>
+                        </div>
+
+                        <!--Nút lưu sản phẩm-->
+                        <input type="button" id="btn-save" onclick="saveProduct()" style="background-color: #1e293b; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;" value="Lưu sản phẩm">
+                        <!--Nút hủy bỏ-->
+                        <input type="button" id="btn-cancel" onclick="resetForm()" style="background-color: #64748b; color: #fff; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; display: none" value="Hủy bỏ">
+                    </form>
+                    <h3>Danh sách tất cả sản phẩm</h3>
+                    <table border="1" style="width:100%; border-collapse:collapse; text-align:left; margin-top:15px;">
+                        <thread style="background:#f1f5f9;">
+                            <tr>
+                                <th style="padding: 10px;">Hình ảnh</th>
+                                <th style="padding: 10px;">Tên sản phẩm</th>
+                                <th style="padding: 10px;">Giá bán</th>
+                                <th style="padding: 10px;">Trạng thái</th>
+                                <th style="padding: 10px; width: 150px;">Hành động</th>
+                            </tr>
+                        </thread>
+                        <tbody id="adminProductTable">
+                        </tbody>
+                    </table>
+            </div>
+
+            <!-- Footer -->
+            <div class="pageFooter">
+                <p>Ngô Hoài Linh</p>
+                <p>Mã sinh viên: 110124106</p>
+                <p>Mã Lớp: DA24TTA</p>
+                <p>Ngành: Công nghệ thông tin</p>
+                <p>Email: <a href="mailto:ngohoailinh2k6@gmail.com">ngohoailinh2k6@gmail.com</a></p>
+            </div>
+        </div>
+        <script type="module">
+            import {renderAdminTable} from "../js/script1.js";
+            import {saveProduct} from "../js/script1.js";
+            import {deleteProduct} from "../js/script1.js";
+            import {resetForm} from "../js/script1.js";
+
+            document.addEventListener("DOMContentLoaded", () => {
+                renderAdminTable();
+            });
+            
+        </script>
+    </body>
+</html>

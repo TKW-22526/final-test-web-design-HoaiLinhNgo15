@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="vi">
+    <head>
+        <title>Trang chủ</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="pageContainer">
+            <!-- Header -->
+            <div class="pageHeader">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <img src="assets/Logo_bussiness.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Hoài Linh Portfolio</span>
+
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm nội dung... (ví dụ: Giới thiệu, Sản phẩm)">
+                    <button type="button" id="searchBtn">Tìm</button>
+                </div>
+
+                <nav class="navigation">
+                    <ul class="navList">
+                        <li><a href="html/gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="html/lien-he.html">Liên hệ</a></li>
+                        <li><a href="html/san-pham.html">Sản phẩm</a></li>
+                        
+                        <li><a href="html/quan-ly.html">Quản lý sản phẩm</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="pageContent">
+                <div class="welcome-section">
+                    <h2>Chào Mừng Đến Với Website Cá Nhân Của Tôi</h2>
+                    <p>
+                        Đây là nơi tôi lưu trữ thông tin học tập, giới thiệu bản thân và trưng bày các sản phẩm, dự án công nghệ trong quá trình học tập ngành Công nghệ thông tin.
+                    </p>
+                </div>
+
+                <div class="project-summary">
+                    <div>
+                        <h3>Về Đồ Án Này</h3>
+                        <p>
+                            Website được thiết kế bằng các công nghệ Front-end cốt lõi bao gồm cấu trúc ngữ nghĩa <strong>HTML5</strong>, định dạng giao diện bằng <strong>CSS3</strong>, và tích hợp bộ lọc tìm kiếm thông minh bằng <strong>JavaScript thuần (Vanilla JS)</strong>.
+                        </p>
+                    </div>
+                    <div class="action-buttons">
+                        <a href="html/gioi-thieu.html" style="flex: 1; text-align: center; background: #1e293b; color: #fff; padding: 10px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 14px; transition: background 0.2s;">Xem giới thiệu</a>
+                        <a href="html/san-pham.html" style="flex: 1; text-align: center; background: #38bdf8; color: #0f172a; padding: 10px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 14px; transition: background 0.2s;">Khám phá sản phẩm</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="pageFooter">
+                <p>Ngô Hoài Linh</p>
+                <p>Mã sinh viên: 110124106</p>
+                <p>Mã Lớp: DA24TTA</p>
+                <p>Ngành: Công nghệ thông tin</p>
+                <p>Email: <a href="mailto:ngohoailinh2k6@gmail.com">ngohoailinh2k6@gmail.com</a></p>
+            </div>
+        </div>
+        <script>
+            filterContent();
+        </script>
+    </body>
+</html>

@@ -89,6 +89,56 @@ body{
     color: #38bdf8;
 }
 
+@media (max-width: 950px) {
+    .pageHeader {
+        flex-direction: column; /* Chuyển từ hàng ngang thành hàng dọc */
+        gap: 15px;             /* Tạo khoảng cách đều giữa các hàng */
+        padding: 20px;
+        text-align: center;
+    }
+
+    .search-box {
+        max-width: 100%;       /* Cho phép ô tìm kiếm co giãn tối đa */
+        margin: 10px 0;        /* Tạo khoảng cách trên dưới */
+    }
+}
+
+/* 2. Cấu hình đặc biệt tối ưu riêng cho điện thoại nhỏ (Dưới 550px) */
+@media (max-width: 550px) {
+    .logo .logo-text {
+        font-size: 16px;       /* Thu nhỏ chữ thương hiệu tránh vỡ dòng */
+    }
+
+    .logo .logo-img {
+        max-height: 45px;      /* Thu nhỏ nhẹ logo ảnh */
+    }
+
+    /* Chuyển menu thành dạng danh sách dọc tiện bấm chọn */
+    .pageHeader ul {
+        flex-direction: column; 
+        gap: 12px;
+        width: 100%;
+        padding-top: 10px;
+        border-top: 1px solid #334155; /* Tạo đường ngăn cách mờ tinh tế */
+    }
+
+    .pageHeader ul li {
+        width: 100%;
+    }
+
+    .pageHeader ul li a {
+        display: block;
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    
+    /* Làm mượt placeholder ô tìm kiếm trên mobile */
+    .search-box #searchInput::placeholder {
+        font-size: 12px;
+    }
+}
+
+
 /*dinh dang footer*/
 .pageFooter {
     background-color: #0f172a;

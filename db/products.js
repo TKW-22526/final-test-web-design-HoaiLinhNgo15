@@ -3,6 +3,606 @@
 export const defaultproducts = [
   {
     id: "p001",
+    name: "Laptop Gaming Acer Nitro 5",
+    price: 22990000,
+    currency: "VND",
+    image: "../assets/laptop-acer-nitro5.jpg",
+    link: "chi-tiet.html",
+    description: "Acer Nitro 5 là chiếc laptop gaming được thiết kế dành cho những game thủ muốn trải nghiệm hiệu năng mạnh mẽ trong một mức giá hợp lý. Máy được trang bị bộ vi xử lý Intel Core i7 thế hệ mới, kết hợp cùng card đồ họa NVIDIA GeForce RTX 3060, mang lại khả năng xử lý mượt mà các tựa game AAA hiện nay. Màn hình 15.6 inch Full HD với tần số quét 144Hz giúp hình ảnh hiển thị sắc nét, chuyển động mượt mà, giảm thiểu hiện tượng xé hình. Bàn phím có đèn nền RGB cho phép người dùng tùy chỉnh phong cách riêng, đồng thời mang lại cảm giác gõ chắc chắn. Hệ thống tản nhiệt CoolBoost độc quyền của Acer giúp duy trì nhiệt độ ổn định ngay cả khi chơi game nặng trong thời gian dài. Ngoài ra, Nitro 5 còn hỗ trợ kết nối Wi-Fi 6, cổng USB Type-C, HDMI, và nhiều tùy chọn mở rộng khác. Với thiết kế mạnh mẽ, hiệu năng vượt trội, và giá thành hợp lý, Acer Nitro 5 là lựa chọn hoàn hảo cho những ai muốn bước vào thế giới gaming chuyên nghiệp mà không cần đầu tư quá nhiều chi phí.",
+    status: "active"
+  },
+  {
+    id: "p002",
+    name: "Smartphone Samsung Galaxy S23 Ultra",
+    price: 30990000,
+    currency: "VND",
+    image: "../assets/samsung-galaxy-s23-ultra.jpg",
+    link: "chi-tiet.html",
+    description: "Samsung Galaxy S23 Ultra là chiếc flagship hội tụ những công nghệ tiên tiến nhất của Samsung. Máy sở hữu màn hình Dynamic AMOLED 2X 6.8 inch với độ phân giải QHD+ và tần số quét 120Hz, mang lại trải nghiệm hình ảnh cực kỳ sắc nét và mượt mà. Camera chính 200MP kết hợp cùng hệ thống camera phụ đa dạng giúp người dùng chụp ảnh chi tiết, quay video 8K và zoom quang học 10x. Hiệu năng mạnh mẽ đến từ chip Snapdragon 8 Gen 2, RAM 12GB và bộ nhớ trong lên đến 1TB, đáp ứng mọi nhu cầu từ chơi game, chỉnh sửa video cho đến làm việc đa nhiệm. Pin dung lượng 5000mAh hỗ trợ sạc nhanh 45W, sạc không dây và chia sẻ pin cho thiết bị khác. Galaxy S23 Ultra còn tích hợp bút S Pen, giúp ghi chú, vẽ và thao tác nhanh chóng. Với thiết kế sang trọng, khung viền kim loại chắc chắn, khả năng chống nước IP68, đây là chiếc smartphone hoàn hảo cho người dùng cao cấp.",
+    status: "active"
+  },
+  {
+    id: "p003",
+    name: "Tai nghe Sony WH-1000XM5",
+    price: 8990000,
+    currency: "VND",
+    image: "../assets/sony-wh-1000xm5.jpg",
+    link: "chi-tiet.html",
+    description: "Sony WH-1000XM5 là mẫu tai nghe chống ồn hàng đầu, mang lại trải nghiệm âm thanh đỉnh cao cho người dùng. Với công nghệ chống ồn chủ động (ANC) thế hệ mới, tai nghe có khả năng loại bỏ tiếng ồn môi trường hiệu quả, giúp bạn tập trung vào âm nhạc hoặc công việc. Driver 30mm được tinh chỉnh mang lại âm thanh chi tiết, cân bằng giữa bass, mid và treble. WH-1000XM5 hỗ trợ codec LDAC, mang lại chất lượng âm thanh Hi-Res khi nghe nhạc không dây. Thời lượng pin lên đến 30 giờ, cùng khả năng sạc nhanh chỉ 10 phút cho 5 giờ nghe nhạc. Tai nghe có thiết kế nhẹ, thoải mái với đệm tai mềm mại, phù hợp cho việc sử dụng lâu dài. Ngoài ra, WH-1000XM5 còn hỗ trợ điều khiển cảm ứng, kết nối đa điểm, và trợ lý giọng nói. Đây là lựa chọn hoàn hảo cho những ai yêu thích âm nhạc chất lượng cao và cần sự yên tĩnh trong môi trường ồn ào.",
+    status: "active"
+  },
+  {
+    id: "p004",
+    name: "Máy ảnh Canon EOS R6 Mark II",
+    price: 54990000,
+    currency: "VND",
+    image: "../assets/canon-eos-r6-mark2.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS R6 Mark II là chiếc máy ảnh mirrorless chuyên nghiệp, được thiết kế cho cả nhiếp ảnh gia và nhà quay phim. Máy sở hữu cảm biến CMOS full-frame 24.2MP, kết hợp với bộ xử lý DIGIC X, mang lại chất lượng hình ảnh sắc nét, màu sắc trung thực và khả năng chụp thiếu sáng tuyệt vời. Hệ thống lấy nét Dual Pixel CMOS AF II với 1053 điểm AF giúp bắt nét nhanh chóng, chính xác, kể cả khi chụp đối tượng chuyển động nhanh. EOS R6 Mark II hỗ trợ chụp liên tiếp 40fps với màn trập điện tử, quay video 4K 60fps oversampled từ 6K, và hỗ trợ Canon Log 3 cho hậu kỳ chuyên nghiệp. Máy còn có khả năng chống rung 8 stop, giúp chụp ảnh cầm tay ổn định. Thiết kế nhỏ gọn, chắc chắn, chống bụi và chống nước, phù hợp cho nhiều điều kiện tác nghiệp. Đây là lựa chọn lý tưởng cho những ai muốn nâng cao kỹ năng nhiếp ảnh và quay phim.",
+    status: "active"
+  },
+  {
+    id: "p005",
+    name: "Tablet Apple iPad Pro M2 12.9 inch",
+    price: 32990000,
+    currency: "VND",
+    image: "../assets/ipad-pro-m2.jpg",
+    link: "chi-tiet.html",
+    description: "Apple iPad Pro M2 12.9 inch là chiếc tablet mạnh mẽ nhất của Apple, mang lại trải nghiệm gần như một chiếc laptop. Máy được trang bị chip Apple M2 với hiệu năng vượt trội, hỗ trợ xử lý đồ họa, chỉnh sửa video 4K và chạy các ứng dụng chuyên nghiệp. Màn hình Liquid Retina XDR 12.9 inch với công nghệ mini-LED mang lại độ sáng cao, màu sắc chính xác, phù hợp cho công việc sáng tạo. iPad Pro hỗ trợ Apple Pencil thế hệ 2, Magic Keyboard, biến thiết bị thành công cụ làm việc linh hoạt. Camera sau 12MP, camera trước 12MP hỗ trợ Center Stage, giúp gọi video chuyên nghiệp. Hệ thống âm thanh 4 loa mang lại trải nghiệm giải trí sống động. Với iPadOS, người dùng có thể đa nhiệm, chia màn hình, và sử dụng nhiều ứng dụng cùng lúc. Đây là thiết bị lý tưởng cho designer, editor, và những ai cần một công cụ di động mạnh mẽ.",
+    status: "active"
+  },
+  {
+    id: "p006",
+    name: "Smartwatch Apple Watch Series 9",
+    price: 11990000,
+    currency: "VND",
+    image: "../assets/apple-watch-series9.jpg",
+    link: "chi-tiet.html",
+    description: "Apple Watch Series 9 là chiếc đồng hồ thông minh mới nhất của Apple, mang lại trải nghiệm sức khỏe và tiện ích vượt trội. Máy được trang bị chip S9 SiP, giúp xử lý nhanh chóng và tiết kiệm năng lượng. Màn hình Retina luôn bật, sáng hơn, dễ dàng quan sát dưới ánh nắng. Series 9 hỗ trợ đo nhịp tim, đo oxy trong máu, theo dõi giấc ngủ, và phát hiện tai nạn. Tính năng Double Tap mới cho phép người dùng điều khiển bằng cử chỉ tay. Đồng hồ còn hỗ trợ kết nối với iPhone, nhận thông báo, gọi điện, và sử dụng Apple Pay. Với khả năng chống nước 50m, Apple Watch Series 9 phù hợp cho cả hoạt động thể thao và đời sống hàng ngày. Đây là thiết bị lý tưởng cho những ai muốn quản lý sức khỏe và nâng cao trải nghiệm công nghệ.",
+    status: "active"
+  },
+  {
+    id: "p007",
+    name: "Loa Bluetooth JBL Charge 5",
+    price: 3990000,
+    currency: "VND",
+    image: "../assets/jbl-charge5.jpg",
+    link: "chi-tiet.html",
+    description: "JBL Charge 5 là chiếc loa Bluetooth di động với âm thanh mạnh mẽ và khả năng chống nước IP67, phù hợp cho mọi hoạt động ngoài trời. Loa được trang bị driver công suất lớn cùng bass radiator kép, mang lại âm thanh sống động, bass sâu và treble rõ ràng. Với dung lượng pin lên đến 20 giờ, người dùng có thể thoải mái nghe nhạc cả ngày dài. Charge 5 còn hỗ trợ tính năng Powerbank, cho phép sạc điện thoại hoặc thiết bị khác qua cổng USB. Công nghệ JBL PartyBoost giúp kết nối nhiều loa JBL cùng lúc, tạo nên hệ thống âm thanh hoành tráng. Thiết kế nhỏ gọn, vỏ cao su chắc chắn, dễ dàng mang theo trong các chuyến đi. Đây là lựa chọn lý tưởng cho những ai yêu thích âm nhạc và thường xuyên di chuyển.",
+    status: "active"
+  },
+  {
+    id: "p008",
+    name: "Máy chơi game Sony PlayStation 5",
+    price: 14990000,
+    currency: "VND",
+    image: "../assets/ps5.jpg",
+    link: "chi-tiet.html",
+    description: "Sony PlayStation 5 là hệ máy chơi game thế hệ mới với hiệu năng vượt trội, mang lại trải nghiệm gaming đỉnh cao. PS5 được trang bị CPU AMD Zen 2, GPU RDNA 2, hỗ trợ ray tracing, mang lại hình ảnh chân thực và mượt mà. Ổ SSD tốc độ cao giúp giảm thời gian tải game gần như tức thì. Tay cầm DualSense với công nghệ phản hồi xúc giác và trigger thích ứng, mang lại cảm giác chân thực khi chơi. PS5 hỗ trợ độ phân giải 4K, HDR, và có khả năng chơi game ở 120fps. Ngoài ra, máy còn tích hợp Blu-ray Ultra HD, hỗ trợ xem phim chất lượng cao. Với kho game phong phú, từ các tựa AAA đến indie, PS5 là lựa chọn hoàn hảo cho game thủ.",
+    status: "active"
+  },
+  {
+    id: "p009",
+    name: "Laptop MacBook Air M2",
+    price: 28990000,
+    currency: "VND",
+    image: "../assets/macbook-air-m2.jpg",
+    link: "chi-tiet.html",
+    description: "MacBook Air M2 là chiếc laptop siêu mỏng nhẹ, mang lại hiệu năng mạnh mẽ nhờ chip Apple M2. Máy có màn hình Liquid Retina 13.6 inch với độ sáng cao, màu sắc chính xác, phù hợp cho công việc sáng tạo. Thiết kế mỏng chỉ 11.3mm, trọng lượng 1.24kg, dễ dàng mang theo. Pin sử dụng lên đến 18 giờ, đáp ứng nhu cầu làm việc cả ngày. MacBook Air M2 hỗ trợ sạc nhanh MagSafe, cổng Thunderbolt, và kết nối Wi-Fi 6. Bàn phím Magic Keyboard với Touch ID giúp bảo mật nhanh chóng. Đây là lựa chọn lý tưởng cho sinh viên, nhân viên văn phòng, và những ai cần một chiếc laptop di động mạnh mẽ.",
+    status: "active"
+  },
+  {
+    id: "p010",
+    name: "Màn hình LG UltraGear 27GN950",
+    price: 15990000,
+    currency: "VND",
+    image: "../assets/lg-ultragear-27gn950.jpg",
+    link: "chi-tiet.html",
+    description: "LG UltraGear 27GN950 là màn hình gaming cao cấp với độ phân giải 4K UHD và tần số quét 144Hz. Công nghệ Nano IPS mang lại màu sắc sống động, độ chính xác cao, phù hợp cho cả chơi game và thiết kế đồ họa. Hỗ trợ HDR600, G-Sync và FreeSync Premium Pro, giúp hình ảnh mượt mà, không bị xé hình. Thời gian phản hồi 1ms, mang lại lợi thế trong các tựa game tốc độ cao. Thiết kế viền mỏng, chân đế điều chỉnh linh hoạt, phù hợp cho nhiều không gian làm việc. Đây là màn hình lý tưởng cho game thủ và designer.",
+    status: "active"
+  },
+  {
+    id: "p011",
+    name: "Máy chiếu Xiaomi Mi Smart Projector 2 Pro",
+    price: 12990000,
+    currency: "VND",
+    image: "../assets/xiaomi-projector.jpg",
+    link: "chi-tiet.html",
+    description: "Xiaomi Mi Smart Projector 2 Pro là máy chiếu thông minh với độ phân giải Full HD, hỗ trợ HDR10, mang lại hình ảnh sắc nét và màu sắc sống động. Máy có độ sáng 1300 ANSI lumens, phù hợp cho cả phòng sáng. Hệ điều hành Android TV tích hợp, hỗ trợ Google Assistant, Chromecast, và kho ứng dụng phong phú. Âm thanh Dolby Audio và DTS-HD mang lại trải nghiệm xem phim sống động. Thiết kế nhỏ gọn, dễ dàng di chuyển. Đây là lựa chọn hoàn hảo cho gia đình muốn có rạp chiếu phim tại nhà.",
+    status: "active"
+  },
+  {
+    id: "p012",
+    name: "Router Wi-Fi 6 TP-Link Archer AX73",
+    price: 3990000,
+    currency: "VND",
+    image: "../assets/tplink-ax73.jpg",
+    link: "chi-tiet.html",
+    description: "TP-Link Archer AX73 là router Wi-Fi 6 mạnh mẽ, mang lại tốc độ lên đến 5400Mbps. Công nghệ OFDMA và MU-MIMO giúp nhiều thiết bị kết nối cùng lúc mà vẫn ổn định. Router hỗ trợ bảo mật WPA3, HomeShield, giúp bảo vệ mạng gia đình. Thiết kế 6 ăng-ten ngoài, phủ sóng rộng, phù hợp cho nhà nhiều tầng. Archer AX73 còn hỗ trợ cổng USB 3.0, cho phép chia sẻ dữ liệu nhanh chóng. Đây là lựa chọn lý tưởng cho gia đình và văn phòng cần mạng Wi-Fi mạnh mẽ.",
+    status: "active"
+  },
+  {
+    id: "p013",
+    name: "Ổ cứng SSD Samsung 980 Pro 1TB",
+    price: 3990000,
+    currency: "VND",
+    image: "../assets/samsung-980pro.jpg",
+    link: "chi-tiet.html",
+    description: "Samsung 980 Pro là ổ cứng SSD NVMe PCIe 4.0 với tốc độ đọc lên đến 7000MB/s, ghi 5000MB/s. Đây là lựa chọn hoàn hảo cho game thủ và người dùng chuyên nghiệp cần tốc độ cao. Công nghệ V-NAND và bộ điều khiển Elpis giúp duy trì hiệu năng ổn định. 980 Pro có thiết kế nhỏ gọn M.2, dễ dàng lắp đặt. Hỗ trợ phần mềm Samsung Magician để quản lý và tối ưu hóa. Đây là ổ SSD lý tưởng cho PC gaming và workstation.",
+    status: "active"
+  },
+  {
+    id: "p014",
+    name: "Camera an ninh Ezviz C8PF",
+    price: 2490000,
+    currency: "VND",
+    image: "../assets/ezviz-c8pf.jpg",
+    link: "chi-tiet.html",
+    description: "Ezviz C8PF là camera an ninh ngoài trời với khả năng quay 360 độ, zoom quang học 8x, mang lại hình ảnh chi tiết. Camera hỗ trợ độ phân giải Full HD, màu sắc rõ ràng cả ban đêm nhờ công nghệ hồng ngoại. Hỗ trợ AI phát hiện người, cảnh báo chuyển động, và lưu trữ đám mây. Thiết kế chống nước IP65, phù hợp cho mọi điều kiện thời tiết. Đây là lựa chọn lý tưởng cho gia đình và văn phòng cần giám sát an ninh.",
+    status: "active"
+  },
+  {
+    id: "p015",
+    name: "Máy hút bụi robot iRobot Roomba i7+",
+    price: 17990000,
+    currency: "VND",
+    image: "../assets/roomba-i7.jpg",
+    link: "chi-tiet.html",
+    description: "iRobot Roomba i7+ là robot hút bụi thông minh với khả năng tự động đổ rác vào thùng chứa, giúp người dùng tiết kiệm thời gian. Máy có hệ thống điều hướng iAdapt 3.0 với bản đồ thông minh, cho phép làm sạch từng phòng theo yêu cầu. Lực hút mạnh mẽ, phù hợp cho cả sàn gỗ và thảm. Roomba i7+ hỗ trợ điều khiển qua ứng dụng, trợ lý giọng nói Alexa và Google Assistant. Đây là lựa chọn hoàn hảo cho gia đình hiện đại.",
+    status: "active"
+  },
+    {
+    id: "p016",
+    name: "Máy in HP LaserJet Pro M404dn",
+    price: 5990000,
+    currency: "VND",
+    image: "../assets/hp-m404dn.jpg",
+    link: "chi-tiet.html",
+    description: "HP LaserJet Pro M404dn là máy in laser đen trắng dành cho doanh nghiệp vừa và nhỏ, nổi bật với tốc độ in nhanh và chất lượng bản in sắc nét. Máy có khả năng in 38 trang/phút, hỗ trợ in hai mặt tự động, giúp tiết kiệm giấy và thời gian. Với độ phân giải 1200 x 1200 dpi, bản in rõ ràng, chuyên nghiệp. M404dn hỗ trợ kết nối mạng LAN, USB, dễ dàng chia sẻ trong văn phòng. Thiết kế nhỏ gọn, chắc chắn, phù hợp cho không gian làm việc hiện đại. Máy còn có tính năng bảo mật HP JetAdvantage, giúp bảo vệ dữ liệu in ấn. Đây là lựa chọn lý tưởng cho doanh nghiệp cần máy in tốc độ cao, ổn định.",
+    status: "active"
+  },
+  {
+    id: "p017",
+    name: "Máy tính để bàn Dell OptiPlex 7090",
+    price: 18990000,
+    currency: "VND",
+    image: "../assets/dell-optiplex-7090.jpg",
+    link: "chi-tiet.html",
+    description: "Dell OptiPlex 7090 là dòng máy tính để bàn doanh nghiệp với hiệu năng mạnh mẽ và khả năng mở rộng linh hoạt. Máy được trang bị CPU Intel Core i5/i7 thế hệ 11, RAM DDR4, ổ SSD NVMe tốc độ cao, đáp ứng nhu cầu làm việc đa nhiệm. Thiết kế nhỏ gọn, tiết kiệm không gian, dễ dàng lắp đặt. OptiPlex 7090 hỗ trợ nhiều cổng kết nối như USB-C, HDMI, DisplayPort, phù hợp cho môi trường văn phòng hiện đại. Máy còn tích hợp công nghệ bảo mật TPM 2.0, giúp bảo vệ dữ liệu doanh nghiệp. Đây là lựa chọn lý tưởng cho công ty cần máy tính để bàn ổn định, dễ bảo trì.",
+    status: "active"
+  },
+  {
+    id: "p018",
+    name: "Máy pha cà phê Philips LatteGo 5400",
+    price: 16990000,
+    currency: "VND",
+    image: "../assets/philips-lattego-5400.jpg",
+    link: "chi-tiet.html",
+    description: "Philips LatteGo 5400 là máy pha cà phê tự động cao cấp, mang lại trải nghiệm cà phê chuẩn quán ngay tại nhà. Máy có khả năng pha 12 loại đồ uống khác nhau như espresso, cappuccino, latte macchiato. Hệ thống LatteGo tạo bọt sữa mịn, dễ dàng vệ sinh. Màn hình cảm ứng trực quan, cho phép tùy chỉnh hương vị, độ mạnh và nhiệt độ. Máy sử dụng bộ lọc AquaClean, giúp giảm cặn và kéo dài tuổi thọ. Thiết kế sang trọng, nhỏ gọn, phù hợp cho không gian bếp hiện đại. Đây là lựa chọn hoàn hảo cho những ai yêu thích cà phê chất lượng cao.",
+    status: "active"
+  },
+  {
+    id: "p019",
+    name: "Máy hút ẩm Sharp DW-J27FV-S",
+    price: 7990000,
+    currency: "VND",
+    image: "../assets/sharp-dw-j27fv.jpg",
+    link: "chi-tiet.html",
+    description: "Sharp DW-J27FV-S là máy hút ẩm công suất lớn, phù hợp cho gia đình và văn phòng. Máy có khả năng hút ẩm 27 lít/ngày, giúp duy trì độ ẩm lý tưởng, bảo vệ sức khỏe và nội thất. Hệ thống lọc khí Plasmacluster Ion giúp loại bỏ vi khuẩn, nấm mốc, mang lại không khí trong lành. Máy có chế độ hẹn giờ, tự động ngắt khi đầy nước, dễ dàng sử dụng. Thiết kế hiện đại, bánh xe di chuyển tiện lợi. Đây là lựa chọn lý tưởng cho môi trường ẩm ướt, giúp phòng luôn khô ráo.",
+    status: "active"
+  },
+  {
+    id: "p020",
+    name: "Máy giặt LG Inverter 10.5kg",
+    price: 12990000,
+    currency: "VND",
+    image: "../assets/lg-washer.jpg",
+    link: "chi-tiet.html",
+    description: "LG Inverter 10.5kg là máy giặt cửa trước với công nghệ AI DD, giúp nhận diện loại vải và điều chỉnh chế độ giặt phù hợp. Máy có khả năng giặt sạch hiệu quả, giảm hư hại quần áo. Công nghệ TurboWash giúp rút ngắn thời gian giặt, tiết kiệm điện và nước. Máy hỗ trợ giặt hơi nước, loại bỏ vi khuẩn và dị ứng. Thiết kế hiện đại, bảng điều khiển cảm ứng, dễ sử dụng. Đây là lựa chọn hoàn hảo cho gia đình đông người.",
+    status: "active"
+  },
+  {
+    id: "p021",
+    name: "Tivi Sony Bravia XR 65 inch",
+    price: 32990000,
+    currency: "VND",
+    image: "../assets/sony-bravia-xr65.jpg",
+    link: "chi-tiet.html",
+    description: "Sony Bravia XR 65 inch là chiếc tivi cao cấp với công nghệ Cognitive Processor XR, mang lại hình ảnh chân thực và âm thanh sống động. Màn hình OLED 4K HDR hiển thị màu sắc rực rỡ, độ tương phản sâu. Hỗ trợ Dolby Vision, Dolby Atmos, mang lại trải nghiệm điện ảnh tại nhà. Tivi chạy hệ điều hành Google TV, kho ứng dụng phong phú, hỗ trợ điều khiển giọng nói. Thiết kế viền mỏng, sang trọng, phù hợp cho phòng khách hiện đại. Đây là lựa chọn lý tưởng cho gia đình yêu thích giải trí.",
+    status: "active"
+  },
+  {
+    id: "p022",
+    name: "Máy lọc nước Coway CHP-18AR",
+    price: 9990000,
+    currency: "VND",
+    image: "../assets/coway-chp18ar.jpg",
+    link: "chi-tiet.html",
+    description: "Coway CHP-18AR là máy lọc nước nóng lạnh cao cấp, mang lại nguồn nước tinh khiết cho gia đình. Máy sử dụng hệ thống lọc RO nhiều tầng, loại bỏ vi khuẩn, kim loại nặng. Hỗ trợ nước nóng, lạnh, thường, đáp ứng nhu cầu đa dạng. Thiết kế nhỏ gọn, sang trọng, dễ dàng lắp đặt. Máy có chế độ tiết kiệm điện, an toàn cho trẻ em. Đây là lựa chọn hoàn hảo cho gia đình hiện đại.",
+    status: "active"
+  },
+  {
+    id: "p023",
+    name: "Máy sấy tóc Dyson Supersonic",
+    price: 11990000,
+    currency: "VND",
+    image: "../assets/dyson-supersonic.jpg",
+    link: "chi-tiet.html",
+    description: "Dyson Supersonic là máy sấy tóc cao cấp với thiết kế độc đáo, động cơ mạnh mẽ, giúp sấy tóc nhanh chóng mà không gây hư tổn. Công nghệ kiểm soát nhiệt thông minh, duy trì nhiệt độ ổn định, bảo vệ tóc khỏi hư hại. Máy có nhiều đầu sấy đi kèm, phù hợp cho các kiểu tóc khác nhau. Thiết kế nhỏ gọn, sang trọng, dễ dàng sử dụng. Đây là lựa chọn lý tưởng cho salon và gia đình.",
+    status: "active"
+  },
+  {
+    id: "p024",
+    name: "Máy hút bụi Dyson V15 Detect",
+    price: 18990000,
+    currency: "VND",
+    image: "../assets/dyson-v15.jpg",
+    link: "chi-tiet.html",
+    description: "Dyson V15 Detect là máy hút bụi không dây cao cấp với công nghệ laser phát hiện bụi mịn, giúp làm sạch triệt để. Động cơ mạnh mẽ, lực hút cao, phù hợp cho nhiều loại sàn. Máy có màn hình LCD hiển thị thông tin, pin sử dụng lên đến 60 phút. Thiết kế nhẹ, dễ dàng di chuyển, đi kèm nhiều đầu hút. Đây là lựa chọn hoàn hảo cho gia đình cần giải pháp vệ sinh hiện đại.",
+    status: "active"
+  },
+  {
+    id: "p025",
+    name: "Máy lọc không khí Daikin MCK55",
+    price: 13990000,
+    currency: "VND",
+    image: "../assets/daikin-mck55.jpg",
+    link: "chi-tiet.html",
+    description: "Daikin MCK55 là một trong những mẫu máy lọc không khí cao cấp được thiết kế để mang lại bầu không khí trong lành và an toàn cho gia đình. Sản phẩm sử dụng công nghệ Streamer độc quyền của Daikin, có khả năng phân hủy các chất gây ô nhiễm như vi khuẩn, virus, nấm mốc và các hợp chất hữu cơ dễ bay hơi. Bộ lọc HEPA hiệu suất cao giúp loại bỏ bụi mịn PM2.5, phấn hoa và các hạt nhỏ trong không khí, bảo vệ sức khỏe hô hấp cho cả trẻ em và người lớn. Máy có công suất lọc mạnh mẽ, phù hợp cho phòng diện tích từ 40–50m², rất lý tưởng cho phòng khách, phòng ngủ hoặc văn phòng. Ngoài khả năng lọc khí, MCK55 còn tích hợp chức năng tạo ẩm, giúp duy trì độ ẩm ổn định, tránh khô da và khô cổ họng khi sử dụng điều hòa. Thiết kế nhỏ gọn, hiện đại với bảng điều khiển trực quan, dễ dàng sử dụng. Máy hoạt động êm ái với độ ồn thấp, không gây ảnh hưởng đến giấc ngủ. Ngoài ra, sản phẩm còn có chế độ tiết kiệm điện, hẹn giờ thông minh và cảm biến chất lượng không khí, tự động điều chỉnh công suất theo mức độ ô nhiễm. Với sự kết hợp giữa hiệu quả lọc khí, tạo ẩm và thiết kế sang trọng, Daikin MCK55 là lựa chọn hoàn hảo cho những gia đình hiện đại muốn bảo vệ sức khỏe và nâng cao chất lượng cuộc sống.",
+    status: "active"
+  },
+  {
+    id: "p026",
+    name: "Máy ảnh Fujifilm X-T5",
+    price: 38990000,
+    currency: "VND",
+    image: "../assets/fujifilm-xt5.jpg",
+    link: "chi-tiet.html",
+    description: "Fujifilm X-T5 là chiếc máy ảnh mirrorless APS-C cao cấp, nổi bật với cảm biến 40MP và khả năng quay video 6.2K. Máy mang lại chất lượng hình ảnh sắc nét, màu sắc đặc trưng của Fujifilm. Hệ thống lấy nét nhanh, chính xác, phù hợp cho cả nhiếp ảnh và quay phim. Thiết kế retro sang trọng, nhỏ gọn, dễ dàng mang theo. X-T5 hỗ trợ chống rung 7 stop, giúp chụp ảnh cầm tay ổn định. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia chuyên nghiệp và người yêu thích sáng tạo.",
+    status: "active"
+  },
+  {
+    id: "p027",
+    name: "Máy tính bảng Samsung Galaxy Tab S9 Ultra",
+    price: 29990000,
+    currency: "VND",
+    image: "../assets/galaxy-tab-s9-ultra.jpg",
+    link: "chi-tiet.html",
+    description: "Samsung Galaxy Tab S9 Ultra là chiếc tablet Android cao cấp với màn hình AMOLED 14.6 inch, độ phân giải 2K, hỗ trợ HDR10+. Máy được trang bị chip Snapdragon 8 Gen 2, RAM lớn, đáp ứng nhu cầu làm việc và giải trí. Hỗ trợ bút S Pen, giúp ghi chú, vẽ và chỉnh sửa dễ dàng. Pin dung lượng cao, hỗ trợ sạc nhanh. Tab S9 Ultra còn có hệ thống loa AKG, Dolby Atmos, mang lại trải nghiệm âm thanh sống động. Đây là lựa chọn hoàn hảo cho designer, học sinh, và người dùng cần thiết bị di động mạnh mẽ.",
+    status: "active"
+  },
+  {
+    id: "p028",
+    name: "Máy ảnh GoPro Hero 12 Black",
+    price: 11990000,
+    currency: "VND",
+    image: "../assets/gopro-hero12.jpg",
+    link: "chi-tiet.html",
+    description: "GoPro Hero 12 Black là camera hành trình mới nhất, nổi bật với khả năng quay video 5.3K và chụp ảnh 27MP. Máy có chống rung HyperSmooth 6.0, giúp quay video mượt mà ngay cả khi di chuyển nhanh. Thiết kế nhỏ gọn, chống nước 10m, phù hợp cho các hoạt động thể thao mạo hiểm. Hero 12 hỗ trợ quay timelapse, slow-motion, livestream. Pin dung lượng cao, cải thiện thời gian sử dụng. Đây là lựa chọn lý tưởng cho những ai yêu thích phiêu lưu và muốn ghi lại khoảnh khắc sống động.",
+    status: "active"
+  },
+  {
+    id: "p029",
+    name: "Laptop ASUS ROG Zephyrus G14",
+    price: 39990000,
+    currency: "VND",
+    image: "../assets/asus-rog-g14.jpg",
+    link: "chi-tiet.html",
+    description: "ASUS ROG Zephyrus G14 là laptop gaming cao cấp với thiết kế nhỏ gọn, hiệu năng mạnh mẽ. Máy được trang bị CPU AMD Ryzen 9, GPU NVIDIA RTX 4070, mang lại trải nghiệm chơi game mượt mà. Màn hình 14 inch QHD với tần số quét 165Hz, hiển thị sắc nét. Hệ thống tản nhiệt hiệu quả, giúp duy trì hiệu năng ổn định. Thiết kế sang trọng, nhẹ, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho game thủ và người dùng cần laptop mạnh mẽ, di động.",
+    status: "active"
+  },
+  {
+    id: "p030",
+    name: "Máy ảnh Nikon Z8",
+    price: 64990000,
+    currency: "VND",
+    image: "../assets/nikon-z8.jpg",
+    link: "chi-tiet.html",
+    description: "Nikon Z8 là máy ảnh mirrorless full-frame cao cấp, được ví như phiên bản thu nhỏ của Z9. Máy sở hữu cảm biến 45.7MP, hỗ trợ quay video 8K, mang lại chất lượng hình ảnh và video chuyên nghiệp. Hệ thống lấy nét nhanh, chính xác, phù hợp cho nhiều thể loại nhiếp ảnh. Thiết kế chắc chắn, chống bụi, chống nước, phù hợp cho môi trường khắc nghiệt. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia và nhà quay phim chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p031",
+    name: "Máy tính để bàn Apple Mac Studio M2 Ultra",
+    price: 89990000,
+    currency: "VND",
+    image: "../assets/mac-studio-m2ultra.jpg",
+    link: "chi-tiet.html",
+    description: "Apple Mac Studio M2 Ultra là máy tính để bàn nhỏ gọn nhưng cực kỳ mạnh mẽ, dành cho designer, editor và developer chuyên nghiệp. Máy được trang bị chip M2 Ultra với hàng chục nhân CPU và GPU, mang lại hiệu năng vượt trội. Hỗ trợ RAM lên đến 192GB, SSD tốc độ cao. Mac Studio có nhiều cổng kết nối như Thunderbolt 4, HDMI, Ethernet, đáp ứng nhu cầu làm việc đa dạng. Thiết kế nhỏ gọn, sang trọng, phù hợp cho studio sáng tạo. Đây là lựa chọn hoàn hảo cho người dùng chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p032",
+    name: "Máy ảnh Sony A7R V",
+    price: 79990000,
+    currency: "VND",
+    image: "../assets/sony-a7rv.jpg",
+    link: "chi-tiet.html",
+    description: "Sony A7R V là máy ảnh full-frame cao cấp với cảm biến 61MP, mang lại hình ảnh chi tiết, sắc nét. Máy hỗ trợ quay video 8K, hệ thống lấy nét AI thông minh, nhận diện đối tượng chính xác. A7R V có khả năng chống rung 8 stop, giúp chụp ảnh cầm tay ổn định. Thiết kế chắc chắn, chống bụi, chống nước, phù hợp cho nhiều điều kiện tác nghiệp. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p033",
+    name: "Máy ảnh Panasonic Lumix GH6",
+    price: 49990000,
+    currency: "VND",
+    image: "../assets/panasonic-gh6.jpg",
+    link: "chi-tiet.html",
+    description: "Panasonic Lumix GH6 là máy ảnh Micro Four Thirds cao cấp, nổi bật với khả năng quay video 5.7K và chụp ảnh chất lượng cao. Máy có hệ thống chống rung mạnh mẽ, hỗ trợ quay phim chuyên nghiệp. GH6 có nhiều chế độ quay như V-Log, anamorphic, phù hợp cho nhà làm phim. Thiết kế chắc chắn, nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho filmmaker và content creator.",
+    status: "active"
+  },
+  {
+    id: "p034",
+    name: "Máy ảnh Leica Q3",
+    price: 139990000,
+    currency: "VND",
+    image: "../assets/leica-q3.jpg",
+    link: "chi-tiet.html",
+    description: "Leica Q3 là máy ảnh compact full-frame cao cấp, nổi bật với cảm biến 60MP và ống kính Summilux 28mm f/1.7. Máy mang lại chất lượng hình ảnh tuyệt vời, màu sắc đặc trưng của Leica. Hỗ trợ quay video 8K, kết nối Wi-Fi, Bluetooth. Thiết kế sang trọng, tinh tế, phù hợp cho người yêu nhiếp ảnh. Đây là lựa chọn hoàn hảo cho những ai muốn trải nghiệm chất lượng Leica trong một thiết kế nhỏ gọn.",
+    status: "active"
+  },
+  {
+    id: "p035",
+    name: "Máy ảnh Hasselblad X2D 100C",
+    price: 249990000,
+    currency: "VND",
+    image: "../assets/hasselblad-x2d.jpg",
+    link: "chi-tiet.html",
+    description: "Hasselblad X2D 100C là máy ảnh medium format cao cấp với cảm biến 100MP, mang lại chất lượng hình ảnh vượt trội. Máy hỗ trợ quay video 4K, hệ thống lấy nét nhanh, chính xác. Thiết kế sang trọng, tinh tế, phù hợp cho nhiếp ảnh gia chuyên nghiệp. Đây là lựa chọn lý tưởng cho những ai muốn đạt đến đỉnh cao chất lượng hình ảnh.",
+    status: "active"
+  },
+    {
+    id: "p036",
+    name: "Máy ảnh Olympus OM-1",
+    price: 45990000,
+    currency: "VND",
+    image: "../assets/olympus-om1.jpg",
+    link: "chi-tiet.html",
+    description: "Olympus OM-1 là máy ảnh mirrorless Micro Four Thirds cao cấp, nổi bật với cảm biến stacked 20MP và khả năng quay video 4K 60fps. Máy có hệ thống lấy nét AI thông minh, nhận diện đối tượng nhanh chóng. Chống rung mạnh mẽ, giúp chụp ảnh cầm tay ổn định. Thiết kế nhỏ gọn, chống bụi, chống nước, phù hợp cho nhiều điều kiện tác nghiệp. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia và nhà quay phim cần thiết bị linh hoạt.",
+    status: "active"
+  },
+  {
+    id: "p037",
+    name: "Máy ảnh Pentax K-3 Mark III",
+    price: 39990000,
+    currency: "VND",
+    image: "../assets/pentax-k3iii.jpg",
+    link: "chi-tiet.html",
+    description: "Pentax K-3 Mark III là máy ảnh DSLR APS-C cao cấp, nổi bật với cảm biến 26MP và khả năng chụp liên tiếp 12fps. Máy có hệ thống lấy nét nhanh, chính xác, phù hợp cho nhiều thể loại nhiếp ảnh. Thiết kế chắc chắn, chống bụi, chống nước, phù hợp cho môi trường khắc nghiệt. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia yêu thích DSLR truyền thống.",
+    status: "active"
+  },
+  {
+    id: "p038",
+    name: "Máy ảnh Sigma fp L",
+    price: 49990000,
+    currency: "VND",
+    image: "../assets/sigma-fpl.jpg",
+    link: "chi-tiet.html",
+    description: "Sigma fp L là máy ảnh full-frame nhỏ gọn, nổi bật với cảm biến 61MP và khả năng quay video 4K RAW. Máy có thiết kế modular, dễ dàng tùy chỉnh theo nhu cầu. fp L hỗ trợ nhiều chế độ quay phim chuyên nghiệp, phù hợp cho filmmaker. Đây là lựa chọn lý tưởng cho những ai cần máy ảnh nhỏ gọn nhưng mạnh mẽ.",
+    status: "active"
+  },
+  {
+    id: "p039",
+    name: "Máy ảnh Blackmagic Pocket Cinema Camera 6K Pro",
+    price: 59990000,
+    currency: "VND",
+    image: "../assets/blackmagic-6kpro.jpg",
+    link: "chi-tiet.html",
+    description: "Blackmagic Pocket Cinema Camera 6K Pro là máy quay phim chuyên nghiệp với khả năng quay video 6K RAW. Máy có màn hình HDR 5 inch, ND filter tích hợp, phù hợp cho quay phim ngoài trời. Hỗ trợ nhiều định dạng quay, màu sắc chính xác, phù hợp cho hậu kỳ. Đây là lựa chọn lý tưởng cho nhà làm phim độc lập và studio nhỏ.",
+    status: "active"
+  },
+  {
+    id: "p040",
+    name: "Máy ảnh RED Komodo 6K",
+    price: 149990000,
+    currency: "VND",
+    image: "../assets/red-komodo.jpg",
+    link: "chi-tiet.html",
+    description: "RED Komodo 6K là máy quay phim chuyên nghiệp với cảm biến Super35, hỗ trợ quay video 6K RAW. Máy có thiết kế nhỏ gọn, phù hợp cho nhiều loại sản xuất phim. Hệ thống lấy nét nhanh, màu sắc chính xác, phù hợp cho hậu kỳ. Đây là lựa chọn lý tưởng cho nhà làm phim chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p041",
+    name: "Máy ảnh ARRI Alexa Mini LF",
+    price: 299990000,
+    currency: "VND",
+    image: "../assets/arri-alexa-mini.jpg",
+    link: "chi-tiet.html",
+    description: "ARRI Alexa Mini LF là máy quay phim điện ảnh cao cấp với cảm biến large format, mang lại chất lượng hình ảnh tuyệt vời. Máy hỗ trợ quay video 4.5K, màu sắc chính xác, phù hợp cho sản xuất phim điện ảnh. Thiết kế nhỏ gọn, linh hoạt, phù hợp cho nhiều loại cảnh quay. Đây là lựa chọn lý tưởng cho studio phim chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p042",
+    name: "Máy ảnh Phase One XF IQ4",
+    price: 399990000,
+    currency: "VND",
+    image: "../assets/phaseone-xf.jpg",
+    link: "chi-tiet.html",
+    description: "Phase One XF IQ4 là máy ảnh medium format cao cấp với cảm biến 150MP, mang lại chất lượng hình ảnh vượt trội. Máy hỗ trợ nhiều chế độ chụp chuyên nghiệp, phù hợp cho nhiếp ảnh gia thương mại. Thiết kế sang trọng, chắc chắn, phù hợp cho studio. Đây là lựa chọn lý tưởng cho những ai muốn đạt đến đỉnh cao chất lượng hình ảnh.",
+    status: "active"
+  },
+  {
+    id: "p043",
+    name: "Máy ảnh DJI Ronin 4D",
+    price: 199990000,
+    currency: "VND",
+    image: "../assets/dji-ronin4d.jpg",
+    link: "chi-tiet.html",
+    description: "DJI Ronin 4D là hệ thống quay phim tích hợp gimbal, camera full-frame 6K/8K, mang lại trải nghiệm quay phim chuyên nghiệp. Máy có hệ thống chống rung mạnh mẽ, phù hợp cho quay phim di động. Hỗ trợ nhiều chế độ quay, màu sắc chính xác, phù hợp cho hậu kỳ. Đây là lựa chọn lý tưởng cho filmmaker cần thiết bị linh hoạt.",
+    status: "active"
+  },
+  {
+    id: "p044",
+    name: "Máy ảnh Canon EOS R5C",
+    price: 99990000,
+    currency: "VND",
+    image: "../assets/canon-r5c.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS R5C là máy ảnh hybrid, kết hợp khả năng chụp ảnh và quay phim chuyên nghiệp. Máy sở hữu cảm biến 45MP, hỗ trợ quay video 8K RAW. Hệ thống lấy nét Dual Pixel nhanh, chính xác. Thiết kế chắc chắn, chống bụi, chống nước. Đây là lựa chọn lý tưởng cho những ai cần thiết bị đa năng.",
+    status: "active"
+  },
+  {
+    id: "p045",
+    name: "Máy ảnh Sony FX3",
+    price: 89990000,
+    currency: "VND",
+    image: "../assets/sony-fx3.jpg",
+    link: "chi-tiet.html",
+    description: "Sony FX3 là máy quay phim chuyên nghiệp thuộc dòng Cinema Line, nổi bật với cảm biến full-frame và khả năng quay video 4K 120fps. Máy có hệ thống chống rung mạnh mẽ, hỗ trợ nhiều chế độ quay phim chuyên nghiệp. Thiết kế nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho filmmaker và content creator.",
+    status: "active"
+  },
+    {
+    id: "p046",
+    name: "Máy ảnh Canon EOS R3",
+    price: 139990000,
+    currency: "VND",
+    image: "../assets/canon-eos-r3.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS R3 là máy ảnh mirrorless full-frame cao cấp, được thiết kế cho nhiếp ảnh thể thao và báo chí. Máy sở hữu cảm biến stacked 24MP, hỗ trợ chụp liên tiếp 30fps, mang lại khả năng bắt khoảnh khắc nhanh chóng. Hệ thống lấy nét Dual Pixel CMOS AF II với AI nhận diện đối tượng chính xác. EOS R3 hỗ trợ quay video 6K RAW, chống rung mạnh mẽ, phù hợp cho quay phim chuyên nghiệp. Thiết kế chắc chắn, chống bụi, chống nước, phù hợp cho môi trường khắc nghiệt. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p047",
+    name: "Máy ảnh Sony FX6",
+    price: 159990000,
+    currency: "VND",
+    image: "../assets/sony-fx6.jpg",
+    link: "chi-tiet.html",
+    description: "Sony FX6 là máy quay phim chuyên nghiệp thuộc dòng Cinema Line, nổi bật với cảm biến full-frame và khả năng quay video 4K 120fps. Máy có hệ thống lấy nét nhanh, chống rung mạnh mẽ, phù hợp cho quay phim di động. FX6 hỗ trợ nhiều chế độ quay phim chuyên nghiệp, màu sắc chính xác, phù hợp cho hậu kỳ. Thiết kế nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho filmmaker và studio nhỏ.",
+    status: "active"
+  },
+  {
+    id: "p048",
+    name: "Máy ảnh Panasonic S1H",
+    price: 99990000,
+    currency: "VND",
+    image: "../assets/panasonic-s1h.jpg",
+    link: "chi-tiet.html",
+    description: "Panasonic S1H là máy ảnh full-frame hybrid, nổi bật với khả năng quay video 6K và chụp ảnh chất lượng cao. Máy có hệ thống chống rung mạnh mẽ, hỗ trợ nhiều chế độ quay phim chuyên nghiệp. S1H được chứng nhận bởi Netflix, phù hợp cho sản xuất phim. Thiết kế chắc chắn, chống bụi, chống nước. Đây là lựa chọn lý tưởng cho filmmaker và content creator.",
+    status: "active"
+  },
+  {
+    id: "p049",
+    name: "Máy ảnh Canon EOS C300 Mark III",
+    price: 249990000,
+    currency: "VND",
+    image: "../assets/canon-c300mkiii.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS C300 Mark III là máy quay phim chuyên nghiệp thuộc dòng Cinema EOS, nổi bật với cảm biến Super35 và khả năng quay video 4K RAW. Máy có hệ thống lấy nét Dual Pixel, màu sắc chính xác, phù hợp cho sản xuất phim. Thiết kế chắc chắn, linh hoạt, phù hợp cho nhiều loại cảnh quay. Đây là lựa chọn lý tưởng cho nhà làm phim chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p050",
+    name: "Máy ảnh Sony A1",
+    price: 179990000,
+    currency: "VND",
+    image: "../assets/sony-a1.jpg",
+    link: "chi-tiet.html",
+    description: "Sony A1 là máy ảnh full-frame cao cấp, nổi bật với cảm biến 50MP và khả năng quay video 8K. Máy hỗ trợ chụp liên tiếp 30fps, hệ thống lấy nét AI thông minh, nhận diện đối tượng chính xác. A1 có khả năng chống rung mạnh mẽ, thiết kế chắc chắn, chống bụi, chống nước. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia và nhà quay phim chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p051",
+    name: "Máy ảnh Nikon Z9",
+    price: 159990000,
+    currency: "VND",
+    image: "../assets/nikon-z9.jpg",
+    link: "chi-tiet.html",
+    description: "Nikon Z9 là máy ảnh mirrorless full-frame flagship, nổi bật với cảm biến 45.7MP và khả năng quay video 8K. Máy hỗ trợ chụp liên tiếp 20fps, hệ thống lấy nét nhanh, chính xác. Z9 có thiết kế chắc chắn, chống bụi, chống nước, phù hợp cho môi trường khắc nghiệt. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia chuyên nghiệp.",
+    status: "active"
+  },
+  {
+    id: "p052",
+    name: "Máy ảnh Fujifilm GFX100S",
+    price: 199990000,
+    currency: "VND",
+    image: "../assets/fujifilm-gfx100s.jpg",
+    link: "chi-tiet.html",
+    description: "Fujifilm GFX100S là máy ảnh medium format cao cấp với cảm biến 102MP, mang lại chất lượng hình ảnh vượt trội. Máy có hệ thống chống rung mạnh mẽ, hỗ trợ quay video 4K. Thiết kế nhỏ gọn, dễ dàng mang theo, phù hợp cho nhiếp ảnh gia thương mại. Đây là lựa chọn lý tưởng cho những ai muốn đạt đến đỉnh cao chất lượng hình ảnh.",
+    status: "active"
+  },
+  {
+    id: "p053",
+    name: "Máy ảnh Leica SL2-S",
+    price: 139990000,
+    currency: "VND",
+    image: "../assets/leica-sl2s.jpg",
+    link: "chi-tiet.html",
+    description: "Leica SL2-S là máy ảnh full-frame cao cấp, nổi bật với cảm biến 24MP và khả năng quay video 4K. Máy có thiết kế sang trọng, tinh tế, phù hợp cho người yêu nhiếp ảnh. SL2-S hỗ trợ nhiều chế độ quay phim chuyên nghiệp, màu sắc đặc trưng của Leica. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia và filmmaker.",
+    status: "active"
+  },
+  {
+    id: "p054",
+    name: "Máy ảnh Hasselblad H6D-100c",
+    price: 299990000,
+    currency: "VND",
+    image: "../assets/hasselblad-h6d.jpg",
+    link: "chi-tiet.html",
+    description: "Hasselblad H6D-100c là máy ảnh medium format cao cấp với cảm biến 100MP, mang lại chất lượng hình ảnh vượt trội. Máy hỗ trợ quay video 4K, hệ thống lấy nét nhanh, chính xác. Thiết kế sang trọng, tinh tế, phù hợp cho studio. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia thương mại.",
+    status: "active"
+  },
+  {
+    id: "p055",
+    name: "Máy ảnh Phase One XT",
+    price: 399990000,
+    currency: "VND",
+    image: "../assets/phaseone-xt.jpg",
+    link: "chi-tiet.html",
+    description: "Phase One XT là hệ thống máy ảnh medium format cao cấp, nổi bật với cảm biến 150MP và khả năng chụp ảnh chất lượng vượt trội. Máy có thiết kế modular, dễ dàng tùy chỉnh theo nhu cầu. Đây là lựa chọn lý tưởng cho nhiếp ảnh gia chuyên nghiệp cần chất lượng hình ảnh cao nhất.",
+    status: "active"
+  },
+    {
+    id: "p056",
+    name: "Máy ảnh Canon EOS R10",
+    price: 24990000,
+    currency: "VND",
+    image: "../assets/canon-eos-r10.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS R10 là máy ảnh mirrorless APS-C tầm trung, nổi bật với cảm biến 24MP và khả năng quay video 4K 60fps. Máy có hệ thống lấy nét Dual Pixel CMOS AF II, nhận diện đối tượng nhanh chóng, chính xác. Thiết kế nhỏ gọn, nhẹ, phù hợp cho người mới bắt đầu và nhiếp ảnh gia bán chuyên. EOS R10 hỗ trợ chụp liên tiếp 15fps, mang lại khả năng bắt khoảnh khắc tốt. Đây là lựa chọn lý tưởng cho những ai muốn bước vào thế giới mirrorless.",
+    status: "active"
+  },
+  {
+    id: "p057",
+    name: "Máy ảnh Sony ZV-E10",
+    price: 19990000,
+    currency: "VND",
+    image: "../assets/sony-zve10.jpg",
+    link: "chi-tiet.html",
+    description: "Sony ZV-E10 là máy ảnh mirrorless APS-C được thiết kế dành cho vlogger và content creator. Máy sở hữu cảm biến 24MP, hỗ trợ quay video 4K, hệ thống lấy nét nhanh, chính xác. ZV-E10 có màn hình xoay lật, micro tích hợp, phù hợp cho quay vlog. Thiết kế nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho những ai muốn tạo nội dung chất lượng cao.",
+    status: "active"
+  },
+  {
+    id: "p058",
+    name: "Máy ảnh Nikon Z30",
+    price: 17990000,
+    currency: "VND",
+    image: "../assets/nikon-z30.jpg",
+    link: "chi-tiet.html",
+    description: "Nikon Z30 là máy ảnh mirrorless APS-C nhỏ gọn, phù hợp cho vlogger và người mới bắt đầu. Máy sở hữu cảm biến 20MP, hỗ trợ quay video 4K, hệ thống lấy nét nhanh, chính xác. Z30 có màn hình xoay lật, micro tích hợp, phù hợp cho quay vlog. Thiết kế nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho những ai muốn tạo nội dung chất lượng.",
+    status: "active"
+  },
+  {
+    id: "p059",
+    name: "Máy ảnh Fujifilm X-S20",
+    price: 29990000,
+    currency: "VND",
+    image: "../assets/fujifilm-xs20.jpg",
+    link: "chi-tiet.html",
+    description: "Fujifilm X-S20 là máy ảnh mirrorless APS-C mới nhất, nổi bật với cảm biến 26MP và khả năng quay video 6.2K. Máy có hệ thống lấy nét nhanh, chống rung mạnh mẽ, phù hợp cho cả nhiếp ảnh và quay phim. Thiết kế nhỏ gọn, sang trọng, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho những ai yêu thích sáng tạo nội dung.",
+    status: "active"
+  },
+  {
+    id: "p060",
+    name: "Máy ảnh Panasonic Lumix G100",
+    price: 15990000,
+    currency: "VND",
+    image: "../assets/panasonic-g100.jpg",
+    link: "chi-tiet.html",
+    description: "Panasonic Lumix G100 là máy ảnh mirrorless Micro Four Thirds nhỏ gọn, được thiết kế dành cho vlogger. Máy sở hữu cảm biến 20MP, hỗ trợ quay video 4K, hệ thống micro tích hợp, mang lại âm thanh chất lượng cao. G100 có màn hình xoay lật, phù hợp cho quay vlog. Thiết kế nhỏ gọn, dễ dàng mang theo. Đây là lựa chọn lý tưởng cho những ai muốn tạo nội dung video chất lượng.",
+    status: "active"
+  },
+    {
+    id: "p061",
     name: "Laptop Dell XPS 13",
     price: 32490000,
     currency: "VND",
@@ -12,47 +612,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p002",
-    name: "MacBook Air M2",
-    price: 28990000,
-    currency: "VND",
-    image: "../assets/macbook-air-m2.jpg",
-    link: "chi-tiet.html",
-    description: "MacBook Air M2 đánh dấu một bước chuyển mình mang tính đột phá lớn trong ngôn ngữ thiết kế và hiệu năng của dòng máy tính xách tay siêu mỏng nhẹ từ nhà Apple. Khởi đầu bằng việc loại bỏ hoàn toàn kiểu dáng vát mỏng hình nêm truyền thống, phiên bản này sở hữu diện mạo vuông vắn, hiện đại và đồng nhất hơn, lấy cảm hứng từ dòng MacBook Pro cao cấp nhưng vẫn duy trì độ mỏng và trọng lượng cực kỳ lý tưởng để dễ dàng nằm gọn trong ba lô của bạn. Trái tim của máy là bộ vi xử lý thế hệ mới Apple M2 được sản xuất trên tiến trình tiên tiến, mang lại hiệu suất CPU nhanh hơn 18% và GPU mạnh hơn tới 35% so với thế hệ M1 trước đó. Sức mạnh này giúp bạn dễ dàng chinh phục từ các công việc văn phòng thường nhật, học tập, lập trình cho đến việc biên tập và render các video độ phân giải 4K mà không hề gặp hiện tượng giật lag. Màn hình Liquid Retina kích thước 13.6 inch với thiết kế phần khuyết 'tai thỏ' thời thượng mở rộng không gian hiển thị, sở hữu độ sáng lên tới 500 nits và hỗ trợ dải màu rộng P3, mang đến những khung hình rực rỡ, trung thực và sống động đến từng chi tiết nhỏ nhất. Đặc biệt, nhờ kiến trúc tối ưu hóa năng lượng vượt trội của Apple Silicon, MacBook Air M2 sở hữu thời lượng pin đáng kinh ngạc lên đến 18 giờ liên tục, cho phép bạn thoải mái làm việc, giải trí cả ngày dài mà không cần lo lắng về việc mang theo bộ sạc. Hệ thống âm thanh 4 loa hỗ trợ công nghệ Spatial Audio mang lại không gian âm nhạc điện ảnh, kết hợp với camera FaceTime HD 1080p sắc nét và cổng sạc nam tính MagSafe tiện lợi, an toàn, biến chiếc máy này thành sự lựa chọn không thể tuyệt vời hơn cho học sinh, sinh viên và những người làm sáng tạo nội dung.",
-    status: "active"
-  },
-  {
-    id: "p003",
-    name: "iPhone 15 Pro",
-    price: 24990000,
-    currency: "VND",
-    image: "../assets/iphone15pro.jpg",
-    link: "chi-tiet.html",
-    description: "iPhone 15 Pro là một kiệt tác công nghệ đỉnh cao, đánh dấu bước nhảy vọt quan trọng của Apple trong việc ứng dụng vật liệu cao cấp vào ngành công nghiệp chế tạo điện thoại thông minh. Thiết bị sở hữu lớp vỏ ngoài được làm từ chất liệu chất liệu Titanium chuẩn hàng không vũ trụ siêu bền, siêu nhẹ, vừa mang lại diện mạo sang trọng, đẳng cấp vượt thời gian, vừa giúp giảm đáng kể trọng lượng của máy, tạo cảm giác cầm nắm nhẹ nhàng và vô cùng thoải mái trong lòng bàn tay. Mặt trước của máy được bảo vệ bởi lớp kính Ceramic Shield cứng cáp nhất thế giới smartphone hiện tại, kết hợp với phần viền màn hình được tinh chỉnh siêu mỏng để tối ưu hóa không gian hiển thị. Cung cấp sức mạnh hủy diệt cho iPhone 15 Pro là con chip Apple A17 Pro - bộ vi xử lý di động đầu tiên trên thế giới được sản xuất trên tiến trình 3nm tiên tiến, mang lại hiệu năng CPU và GPU vượt trội, sẵn sàng xử lý mượt mà các tựa game đồ họa nặng chuẩn console hiện nay cũng như tối ưu hóa các thuật toán trí tuệ nhân tạo thông minh. Hệ thống camera chuyên nghiệp trên máy cũng nhận được nâng cấp toàn diện với cảm biến chính lên đến 48MP, cho phép chụp ảnh độ phân giải siêu cao với chi tiết cực kỳ sắc nét, đi kèm khả năng kiểm soát tiêu cự linh hoạt và chế độ chụp đêm Night Mode cải tiến vượt bậc. Điểm đột phá không thể không nhắc đến chính là việc chuyển đổi sang cổng kết nối USB-C tốc độ cao chuẩn USB 3, giúp tăng tốc độ truyền tải dữ liệu lên gấp nhiều lần, cùng nút tác vụ Action Button hoàn toàn mới thay thế cho cần gạt rung truyền thống, cho phép người dùng tùy biến nhanh chóng để mở các ứng dụng hoặc tính năng yêu thích chỉ với một cú nhấn giữ tiện lợi.",
-    status: "active"
-  },
-  {
-    id: "p004",
-    name: "Samsung Galaxy S24 Ultra",
-    price: 29990000,
-    currency: "VND",
-    image: "../assets/galaxy-s24-ultra.jpg",
-    link: "chi-tiet.html",
-    description: "Samsung Galaxy S24 Ultra là định nghĩa hoàn hảo cho một chiếc smartphone flagship Android cao cấp, mở ra kỷ nguyên mới của trí tuệ nhân tạo di động với hệ sinh thái Galaxy AI vô cùng thông minh và tiện ích. Thiết bị thu hút mọi ánh nhìn nhờ ngôn ngữ thiết kế vuông vắn, mạnh mẽ mang tính biểu tượng, kết hợp với khung viền Titanium sang trọng, bền bỉ và mặt kính Corning Gorilla Armor thế hệ mới giúp giảm thiểu độ phản xạ ánh sáng đến 75% và chống trầy xước vượt trội. Siêu phẩm này sở hữu màn hình Dynamic AMOLED 2X kích thước lên đến 6.8 inch phẳng hoàn toàn, hỗ trợ độ phân giải QHD+ cùng tần số quét thích ứng 1-120Hz mượt mà, mang đến độ sáng tối đa đạt mức kỷ lục 2600 nits giúp mọi nội dung hiển thị rõ nét ngay cả dưới ánh nắng gay gắt ban ngày. Điểm nhấn làm nên tên tuổi của dòng Ultra chính là hệ thống camera quyền năng với cảm biến chính có độ phân giải siêu khủng lên tới 200MP, kết hợp với ống kính zoom quang học và thuật toán AI ProVisual, cho phép bạn bắt trọn mọi khoảnh khắc từ khoảng cách cực xa với độ chi tiết khó tin và khả năng chụp đêm siêu sáng rõ nét. Bên trong máy là bộ vi xử lý Snapdragon 8 Gen 3 for Galaxy được tối ưu hóa riêng biệt, mang lại hiệu năng xử lý đồ họa mạnh mẽ, kết hợp với hệ thống tản nhiệt buồng hơi lớn hơn gấp rưỡi giúp máy luôn mát mẻ khi chiến game hay xử lý đa nhiệm nặng. Chiếc bút S Pen thần thánh đi kèm được tích hợp sâu vào thân máy, mang lại trải nghiệm viết, vẽ tự nhiên như trên giấy và hỗ trợ đắc lực cho các tính năng AI đột phá như Khoanh vùng search đa năng (Circle to Search), Dịch thuật trực tiếp cuộc gọi theo thời gian thực hay Trợ lý ghi chú thông minh. Viên pin dung lượng lớn 5000mAh hỗ trợ sạc nhanh 45W đảm bảo thiết bị luôn sẵn sàng đồng hành cùng bạn suốt ngày dài năng động.",
-    status: "active"
-  },
-  {
-    id: "p005",
-    name: "Sony WH-1000XM5",
-    price: 8490000,
-    currency: "VND",
-    image: "../assets/sony-wh1000xm5.jpg",
-    link: "chi-tiet.html",
-    description: "Tai nghe chụp tai chống ồn chủ động Sony WH-1000XM5 đại diện cho đỉnh cao công nghệ âm thanh cá nhân, thiết lập một tiêu chuẩn hoàn toàn mới cho phân khúc tai nghe premium toàn cầu. Bước sang thế hệ thứ 5, Sony mang đến một cuộc cách mạng về thiết kế với kiểu dáng tối giản, thanh lịch, các đường nét bo cong mềm mại và sử dụng chất liệu da tổng hợp mềm mại ôm khít lấy tai, giúp phân bổ áp lực đồng đều để người dùng thoải mái đeo trong nhiều giờ liên tục mà không hề có cảm giác đau nhức hay bí bách. Khả năng chống ồn chủ động (ANC) vốn là thế mạnh của hãng nay đã được nâng lên một tầm cao mới nhờ việc trang bị tới 8 microphone xung quanh kết hợp với hai bộ xử lý độc quyền gồm chip chống ồn HD QN1 và chip tích hợp V1. Hệ thống này cho phép tự động tối ưu hóa tính năng chống ồn dựa trên môi trường xung quanh và điều kiện đeo của bạn, triệt tiêu hoàn toàn những tạp âm tần số cao từ tiếng còi xe, tiếng nói chuyện ồn ào nơi công cộng cho đến tiếng động cơ máy bay. Về mặt âm thanh, màng loa 30mm được thiết kế đặc biệt với phần vòm nhẹ và cứng làm từ chất liệu sợi carbon composite, giúp tái tạo dải âm trầm sâu lắng, uy lực và dải âm cao trong trẻo, chi tiết tuyệt đối, đáp ứng hoàn hảo tiêu chuẩn âm thanh phân giải cao Hi-Res Audio chuẩn không dây nhờ codec LDAC. Thiết bị còn sở hữu công nghệ Precise Voice Pickup với 4 micro dạng beamforming và thuật toán giảm tiếng ồn AI giúp giọng nói của bạn luôn rõ ràng trong các cuộc đàm thoại. Thời lượng pin cực khủng lên tới 30 giờ khi bật ANC và khả năng sạc nhanh siêu tốc 3 phút cho 3 giờ sử dụng giúp bạn hoàn toàn an tâm tận hưởng không gian âm nhạc riêng tư ở bất cứ nơi đâu.",
-    status: "active"
-  },
-  {
-    id: "p006",
+    id: "p062",
     name: "Bose QuietComfort 45",
     price: 6990000,
     currency: "VND",
@@ -62,37 +622,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p007",
-    name: "Apple Watch Series 9",
-    price: 10490000,
-    currency: "VND",
-    image: "../assets/apple-watch-series9.jpg",
-    link: "chi-tiet.html",
-    description: "Apple Watch Series 9 là thế hệ đồng hồ thông minh tiên tiến, không chỉ đóng vai trò là một món phụ kiện thời trang đẳng cấp mà còn là một trợ lý sức khỏe toàn diện và người bạn đồng hành đắc lực trong cuộc sống hiện đại. Điểm nâng cấp cốt lõi nằm ở bộ vi xử lý Silicon S9 hoàn toàn mới mạnh mẽ nhất từ trước đến nay của Apple, giúp các thao tác vuốt chạm, mở ứng dụng trở nên mượt mà, phản hồi tức thì và cho phép trợ lý ảo Siri xử lý các yêu cầu trực tiếp ngay trên đồng hồ mà không cần kết nối mạng internet. Nhờ chip xử lý mới này, Apple giới thiệu tính năng Chạm hai lần (Double Tap) vô cùng độc đáo: bạn chỉ cần chạm ngón trỏ và ngón cái của tay đeo đồng hồ vào nhau hai lần là đã có thể dễ dàng trả lời cuộc gọi, tắt báo thức, dừng nhạc hay chụp ảnh từ xa mà không cần chạm vào màn hình - một giải pháp cực kỳ tiện lợi khi tay bạn đang bận xách đồ hoặc nấu ăn. Màn hình Always-On Retina trên Series 9 sở hữu độ sáng tối đa lên tới 2000 nits, tăng gấp đôi so với thế hệ trước, giúp hiển thị văn bản rõ ràng dưới ánh nắng gay gắt, đồng thời có thể giảm xuống chỉ còn 1 nit trong phòng tối để tránh gây chói mắt. Về khía cạnh chăm sóc sức khỏe, thiết bị được tích hợp hệ thống cảm biến sinh học chuyên sâu bao gồm khả năng đo nồng độ oxy trong máu (SpO2), chụp điện tâm đồ (ECG), theo dõi chi tiết các chu kỳ giấc ngủ và cảm biến nhiệt độ hỗ trợ theo dõi sức khỏe phụ nữ một cách khoa học. Các tính năng an toàn như Phát hiện va chạm xe, Phát hiện té ngã và SOS khẩn cấp luôn hoạt động âm thầm để bảo vệ bạn trong những tình huống nguy cấp. Hơn thế nữa, Series 9 cũng là sản phẩm trung hòa carbon đầu tiên của Apple, thể hiện cam kết mạnh mẽ trong việc bảo vệ môi trường toàn cầu.",
-    status: "active"
-  },
-  {
-    id: "p008",
-    name: "Samsung Galaxy Tab S9",
-    price: 19990000,
-    currency: "VND",
-    image: "../assets/galaxy-tab-s9.jpg",
-    link: "chi-tiet.html",
-    description: "Samsung Galaxy Tab S9 thiết lập lại định nghĩa về một chiếc máy tính bảng Android phân khúc cao cấp, kết hợp hài hòa giữa không gian giải trí đỉnh cao và công cụ hỗ trợ công việc chuyên nghiệp hàng đầu. Thiết bị sở hữu thân máy siêu mỏng được chế tác từ chất liệu nhôm Armor Aluminum cực kỳ cứng cáp, mang lại vẻ ngoài tinh tế, sang trọng nhưng vẫn đảm bảo độ bền bỉ cao trước các va đập vật lý. Đây cũng là một trong những dòng máy tính bảng cao cấp đầu tiên trên thế giới đạt tiêu chuẩn kháng nước và kháng bụi IP68, mang đến sự an tâm tuyệt đối cho người dùng khi sử dụng ở các môi trường hồ bơi, bãi biển hay quán cà phê. Mặt trước của Galaxy Tab S9 là không gian hiển thị tuyệt mỹ của màn hình Dynamic AMOLED 2X kích thước 11 inch, hỗ trợ tần số quét thích ứng 120Hz mượt mà và công nghệ HDR10+, mang lại những dải màu sắc rực rỡ, độ tương phản sâu thẳm cùng sắc đen tuyệt đối, biến mọi bộ phim bom tấn hay tựa game đồ họa trở thành một bữa tiệc thị giác sống động. Cung cấp sức mạnh cho máy là bộ vi xử lý Snapdragon 8 Gen 2 for Galaxy dẫn đầu về hiệu năng, cho phép xử lý đa nhiệm cực kỳ mượt mà, render video nhanh chóng và chạy mượt các ứng dụng đồ họa nặng. Chiếc bút S S Pen quyền năng đi kèm trong hộp cũng đạt chuẩn IP68, sở hữu độ trễ cực thấp mang lại cảm giác viết vẽ chân thực như trên giấy, kết hợp cùng giao diện độc quyền Samsung DeX giúp biến đổi linh hoạt không gian máy tính bảng thành một giao diện máy tính cá nhân truyền thống khi kết hợp với bao da bàn phím, đáp ứng tối đa nhu cầu học tập, làm việc và sáng tạo không giới hạn của bạn.",
-    status: "active"
-  },
-  {
-    id: "p009",
-    name: "iPad Pro M2",
-    price: 26990000,
-    currency: "VND",
-    image: "../assets/ipad-pro-m2.jpg",
-    link: "chi-tiet.html",
-    description: "iPad Pro M2 là dòng máy tính bảng mạnh mẽ và tối tân hàng đầu thế giới, xóa nhòa ranh giới giữa một thiết bị di động nhỏ gọn và một chiếc máy tính xách tay chuyên nghiệp dành cho các nhà sáng tạo nội dung, kiến trúc sư và kỹ sư đồ họa. Sức mạnh vượt trội của máy được thúc đẩy bởi con chip Apple M2 sở hữu CPU 8 nhân và GPU 10 nhân, mang lại hiệu năng xử lý tác vụ đồ họa, mã hóa video ProRes nhanh hơn gấp nhiều lần và xử lý các mô hình 3D phức tạp một cách dễ dàng mà không một chiếc máy tính bảng nào khác trên thị trường có thể sánh kịp. Phiên bản màn hình Liquid Retina XDR kích thước 12.9 inch sử dụng công nghệ tấm nền với hàng ngàn bóng đèn mini-LED độc lập, mang lại độ sáng toàn màn hình lên tới 1000 nits và độ sáng tối đa đạt 1600 nits khi hiển thị các nội dung HDR, mang đến tỷ lệ tương phản cực cao 1.000.000:1, giúp hiển thị chính xác từng sắc độ màu sắc, độ chi tiết sâu thẳm của vùng tối và vùng sáng, phục vụ hoàn hảo cho công việc chỉnh sửa ảnh chuyên nghiệp và dựng phim nghệ thuật. Điểm cải tiến độc đáo trên thế hệ này là tính năng Apple Pencil Hover (lướt bút), cho phép màn hình phát hiện đầu bút Apple Pencil thế hệ 2 khi cách bề mặt đến 12mm, giúp người dùng xem trước độ đậm nhạt của nét vẽ hoặc vùng chọn ứng dụng một cách trực quan, chính xác trước khi đặt bút xuống. Hệ thống camera chuyên nghiệp tích hợp cảm biến LiDAR giúp quét không gian 3D nâng cao ứng dụng thực tế ảo tăng cường (AR), đi kèm cổng kết nối Thunderbolt tốc độ cao hỗ trợ truyền tải dữ liệu dung lượng lớn và xuất hình ảnh ra màn hình rời độ phân giải lên đến 6K, biến iPad Pro M2 thành một trạm làm việc di động thực thụ.",
-    status: "active"
-  },
-  {
-    id: "p010",
+    id: "p063",
     name: "Kindle Paperwhite",
     price: 3690000,
     currency: "VND",
@@ -102,7 +632,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p011",
+    id: "p064",
     name: "Logitech MX Master 3S",
     price: 2490000,
     currency: "VND",
@@ -112,7 +642,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p012",
+    id: "p065",
     name: "Razer BlackWidow V4",
     price: 4390000,
     currency: "VND",
@@ -122,17 +652,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p013",
-    name: "Sony PlayStation 5",
-    price: 12490000,
-    currency: "VND",
-    image: "../assets/ps5.jpg",
-    link: "chi-tiet.html",
-    description: "Sony PlayStation 5 (PS5) là cỗ máy chơi game thế hệ mới mang tính cách mạng, thay đổi hoàn toàn bộ mặt của ngành công nghiệp giải trí gia đình và đưa trải nghiệm chơi game của game thủ lên một tầm cao mới chưa từng có. Thiết bị thu hút mọi ánh nhìn ngay từ lần đầu tiên nhờ ngôn ngữ thiết kế tương lai mang tính đột phá mạnh mẽ với các đường cong mềm mại màu trắng thanh lịch ôm lấy phần thân máy màu đen huyền bí, tạo nên một điểm nhấn nội thất công nghệ vô cùng sang trọng trong phòng khách của bạn. Sức mạnh phần cứng bên trong PS5 cực kỳ đáng nể với CPU và GPU tùy biến dựa trên kiến trúc Zen 2 và RDNA 2 tiên tiến của AMD, hỗ trợ công nghệ Ray Tracing (dò tia ánh sáng) phần cứng để tái tạo các hiệu ứng phản chiếu ánh sáng, đổ bóng và mặt nước vô cùng chân thực, sống động như ngoài đời thực. Điểm đột phá lớn nhất của PS5 chính là ổ cứng lưu trữ SSD siêu tốc dung lượng 825GB chuẩn NVMe độc quyền, sở hữu tốc độ truyền dữ liệu nhanh đến mức chóng mặt, giúp triệt tiêu hoàn toàn thời gian chờ đợi tải game (loading screen) truyền thống và cho phép các nhà phát triển thiết kế nên những thế giới game mở rộng lớn, liền mạch không một vết gợn. Máy hỗ trợ xuất hình ảnh độ phân giải 4K sắc nét ở tốc độ khung hình lên tới 120 khung hình trên giây (fps) mượt mà, mang đến trải nghiệm chiến game hành động hay đua xe vô cùng mãn nhãn. Đi kèm với cỗ máy là tay cầm điều khiển không dây DualSense huyền thoại, được tích hợp công nghệ phản hồi xúc giác (Haptic Feedback) và cụm nút kích hoạt thích ứng (Adaptive Triggers), cho phép người dùng cảm nhận rõ nét từng lực kéo của dây cung, độ giật của súng hay cảm giác bánh xe trượt trên vũng bùn lầy, mang lại trải nghiệm nhập vai sâu sắc.",
-    status: "active"
-  },
-  {
-    id: "p014",
+    id: "p066",
     name: "Xbox Series X",
     price: 12990000,
     currency: "VND",
@@ -142,7 +662,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p015",
+    id: "p067",
     name: "Nintendo Switch OLED",
     price: 8190000,
     currency: "VND",
@@ -152,7 +672,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p016",
+    id: "p068",
     name: "DJI Mini 3 Pro",
     price: 18490000,
     currency: "VND",
@@ -162,7 +682,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p017",
+    id: "p069",
     name: "GoPro Hero 12",
     price: 9990000,
     currency: "VND",
@@ -172,7 +692,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p018",
+    id: "p070",
     name: "Canon EOS R7",
     price: 36990000,
     currency: "VND",
@@ -182,7 +702,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p019",
+    id: "p071",
     name: "Samsung 4K Smart TV 55\"",
     price: 11490000,
     currency: "VND",
@@ -192,7 +712,7 @@ export const defaultproducts = [
     status: "active"
   },
   {
-    id: "p020",
+    id: "p072",
     name: "LG OLED C4 65\"",
     price: 48990000,
     currency: "VND",
@@ -203,5 +723,4 @@ export const defaultproducts = [
   }
 ];
 
-//cho phép các file khác sử dụng dữ liệu trong file này thông qua import
 export default defaultproducts;

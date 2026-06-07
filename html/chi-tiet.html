@@ -80,7 +80,7 @@
                 document.getElementsByClassName("info-desc")[0].innerText = spTimThay.description;
             }
             function addProductToCart(){
-                addToCart(spTimThay.id, spTimThay.name, spTimThay.price.toLocaleString(), spTimThay.image);
+                addToCart(spTimThay.id, spTimThay.name, spTimThay.price, spTimThay.image);
             }
             function addToCart(productId, productName, productPrice, productImg) {
                 // 1. Lấy giỏ hàng cũ ra, nếu chưa có thì tạo mảng rỗng []
@@ -101,12 +101,10 @@
                         img: productImg
                     });
                 }
-
-                // 3. 🌟 QUAN TRỌNG NHẤT: Lưu lại vào localStorage với key là 'cart'
                 localStorage.setItem('cart', JSON.stringify(cart));
-
                 alert("Đã thêm sản phẩm vào giỏ hàng thành công!");
             }
+            window.addProductToCart = addProductToCart;
         </script>
     </body>
 </html>

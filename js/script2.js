@@ -1,3 +1,5 @@
+//==== FILE XỬ LÝ CÁC HÀNH ĐỘNG CHO TRANG LIÊN HỆ  =====
+
 function handleContactSubmit(){
     const name = document.getElementById("contact-name").value.trim();
     const email = document.getElementById("contact-email").value.trim();

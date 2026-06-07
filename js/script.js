@@ -1,3 +1,5 @@
+//==== FILE XỬ LÝ CÁC HÀNH ĐỘNG CHO TRANG CHỦ  =====
+
 
 //1. Lấy các phần tử HTML cần xử lý thông qua ID
 function filterContent () {

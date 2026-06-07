@@ -1,3 +1,5 @@
+//==== FILE XỬ LÝ CÁC HÀNH ĐỘNG CHO TRANG QUẢN LÝ SẢN PHẨM  =====
+
 import {defaultproducts} from "../db/products.js";
 
 //Đảm bảo dữ liệu luôn đồng nhất

@@ -1,3 +1,5 @@
+//==== FILE XỬ LÝ CÁC HÀNH ĐỘNG CHO TRANG SẢN PHẨM  =====
+
 import {defaultproducts} from "../db/products.js";
 
 //Nạp dữ liệu vào localStorage

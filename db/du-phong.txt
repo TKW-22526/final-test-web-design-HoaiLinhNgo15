@@ -1,0 +1,50 @@
+  {
+    id: "p073",
+    name: "Laptop Lenovo ThinkPad X1 Carbon Gen 11",
+    price: 42990000,
+    currency: "VND",
+    image: "../assets/thinkpad-x1-carbon.jpg",
+    link: "chi-tiet.html",
+    description: "Lenovo ThinkPad X1 Carbon Gen 11 là mẫu laptop doanh nhân cao cấp, nổi bật với thiết kế siêu nhẹ chỉ 1.12kg nhưng vẫn đảm bảo độ bền đạt chuẩn quân đội MIL-STD-810H. Máy được trang bị bộ vi xử lý Intel Core i7 thế hệ mới, RAM 16GB và SSD 1TB tốc độ cao, mang lại hiệu năng mạnh mẽ cho công việc đa nhiệm. Màn hình 14 inch 2.8K OLED hỗ trợ Dolby Vision, hiển thị màu sắc sống động, độ tương phản sâu. Hệ thống âm thanh Dolby Atmos cùng micro khử tiếng ồn giúp hội họp trực tuyến rõ ràng. Pin sử dụng lên đến 15 giờ, hỗ trợ sạc nhanh Rapid Charge. Đây là lựa chọn lý tưởng cho doanh nhân cần một thiết bị di động mạnh mẽ, bền bỉ và sang trọng.",
+    status: "active"
+  },
+  {
+    id: "p074",
+    name: "Máy ảnh Canon EOS R100",
+    price: 14990000,
+    currency: "VND",
+    image: "../assets/canon-eos-r100.jpg",
+    link: "chi-tiet.html",
+    description: "Canon EOS R100 là chiếc máy ảnh mirrorless APS-C nhỏ gọn, phù hợp cho người mới bắt đầu. Máy sở hữu cảm biến 24MP, hỗ trợ quay video 4K, hệ thống lấy nét Dual Pixel nhanh và chính xác. Thiết kế nhẹ, dễ dàng mang theo trong các chuyến đi. EOS R100 có giao diện trực quan, dễ sử dụng, phù hợp cho học sinh, sinh viên hoặc người yêu thích nhiếp ảnh muốn nâng cao kỹ năng. Đây là lựa chọn hợp lý với giá thành phải chăng nhưng vẫn mang lại chất lượng hình ảnh sắc nét.",
+    status: "active"
+  },
+  {
+    id: "p075",
+    name: "Tai nghe Apple AirPods Pro 2",
+    price: 6490000,
+    currency: "VND",
+    image: "../assets/airpods-pro2.jpg",
+    link: "chi-tiet.html",
+    description: "Apple AirPods Pro 2 là thế hệ tai nghe true wireless cao cấp với khả năng chống ồn chủ động (ANC) cải tiến, mang lại trải nghiệm âm thanh sống động và yên tĩnh. Chip H2 mới giúp tối ưu hóa chất lượng âm thanh, tăng cường bass và treble rõ ràng. Tính năng Adaptive Transparency cho phép nghe âm thanh môi trường một cách tự nhiên. AirPods Pro 2 có thời lượng pin lên đến 6 giờ, hộp sạc MagSafe hỗ trợ sạc không dây và định vị qua ứng dụng Find My. Thiết kế nhỏ gọn, thoải mái, phù hợp cho cả ngày dài sử dụng. Đây là lựa chọn hoàn hảo cho người dùng iPhone và hệ sinh thái Apple.",
+    status: "active"
+  },
+  {
+    id: "p076",
+    name: "Máy chơi game Nintendo Switch OLED",
+    price: 8990000,
+    currency: "VND",
+    image: "../assets/nintendo-switch-oled.jpg",
+    link: "chi-tiet.html",
+    description: "Nintendo Switch OLED là phiên bản nâng cấp của hệ máy chơi game lai nổi tiếng, mang lại trải nghiệm giải trí đa dạng. Máy sở hữu màn hình OLED 7 inch với màu sắc rực rỡ, độ tương phản cao, giúp game hiển thị sống động hơn. Switch OLED có bộ nhớ trong 64GB, hỗ trợ thẻ nhớ microSD để mở rộng dung lượng. Hệ thống loa cải tiến mang lại âm thanh rõ ràng hơn. Máy có thể chơi ở chế độ handheld, tabletop hoặc kết nối với dock để hiển thị trên TV. Đây là lựa chọn lý tưởng cho gia đình và game thủ yêu thích sự linh hoạt.",
+    status: "active"
+  },
+  {
+    id: "p077",
+    name: "Máy in Epson EcoTank L3250",
+    price: 3990000,
+    currency: "VND",
+    image: "../assets/epson-l3250.jpg",
+    link: "chi-tiet.html",
+    description: "Epson EcoTank L3250 là máy in phun màu đa năng với hệ thống bình mực liên tục, giúp tiết kiệm chi phí in ấn đáng kể. Máy hỗ trợ in, scan, copy, phù hợp cho gia đình và văn phòng nhỏ. Tốc độ in nhanh, chất lượng bản in sắc nét. EcoTank L3250 có khả năng kết nối Wi-Fi, in trực tiếp từ điện thoại thông minh qua ứng dụng Epson iPrint. Thiết kế nhỏ gọn, dễ dàng đặt ở nhiều không gian. Đây là lựa chọn kinh tế và tiện lợi cho nhu cầu in ấn thường xuyên.",
+    status: "active"
+  }

@@ -69,9 +69,15 @@
         <script type="module">
             import {defaultproducts} from "../db/products.js";
 
+            if(!localStorage.getItem("products")){
+                localStorage.setItem("products", JSON.stringify("defaultproducts"));
+            }
+
+            const currentProducts = JSON.parse(localStorage.getItem("products")) || [];
+
             const params = new URLSearchParams(window.location.search);
             const idcanTim = params.get('id');
-            const spTimThay = defaultproducts.find(p => p.id === idcanTim);
+            const spTimThay = currentProducts.find(p => p.id === idcanTim);
             if(spTimThay){
                 document.getElementsByClassName("info-img")[0].src = spTimThay.image;
                 document.getElementsByClassName("product-img")[0].alt = spTimThay.name;

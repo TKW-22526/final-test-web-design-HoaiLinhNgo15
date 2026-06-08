@@ -210,6 +210,37 @@ body{
     margin-left: 10px;
 }
 
+/* Định dạng chung cho dòng trạng thái */
+.info-status {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Màu xanh khi còn hàng */
+.status-available {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Màu đỏ khi hết hàng */
+.status-outofstock {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Màu xám khi ngừng kinh doanh hoặc trạng thái khác */
+.status-disabled {
+    background-color: rgba(148, 163, 184, 0.15);
+    color: #94a3b8;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
 .btn-buy{
     background-color: #1e293b;
     color: #fff;

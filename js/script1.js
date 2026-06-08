@@ -17,8 +17,18 @@ export function renderAdminTable() {
 
     tableBody.innerHTML = "";
     products.forEach((prod)=> {
-        const statusText = prod.status === "active" ? "Còn hàng" : "Hết hàng";
-        const statusColor = prod.status === "active" ? "#22c55e" : "#ef4444";
+        let statusText = "";
+        let statusColor = "";
+        if(prod.status === "active"){
+            statusText += "Còn hàng";
+            statusColor += "#22c55e";
+        } else if(prod.status === "inactive"){
+            statusText += "Hết hàng";
+            statusColor += "#ef4444";
+        } else{
+            statusText += "Ngừng kinh doanh";
+            statusColor += "#94a3b8";
+        }
 
         tableBody.innerHTML += `
             <tr>

@@ -7,6 +7,7 @@ if(!localStorage.getItem("products")){
     localStorage.setItem("products", JSON.stringify(defaultproducts));
 }
 
+/*
 export function loadAllProducts(){
     for(let x in defaultproducts){
         if(defaultproducts[x].status === "active"){
@@ -55,7 +56,7 @@ function addProduct(product) {
 
     //thêm khung sản phẩm vào trang web
     document.getElementsByClassName("product-list")[0].appendChild(frame);
-}
+} */
 
 function createProductCard(product){
     const frame = document.createElement("div");
@@ -105,14 +106,12 @@ export function renderProductsGrid(){
     if(!container) return;
 
     //lấy dữ liệu sản phẩm từ localStorage
-    let currentProduct = JSON.parse(localStorage.getItem("products")) || [];
+      let currentProduct = JSON.parse(localStorage.getItem("products")) || [];
 
     container.innerHTML = "";
 
     currentProduct.forEach(product => {
-        if(product.status === "active"){
-            const cardElement = createProductCard(product);
-            container.appendChild(cardElement);
-        }
+        const cardElement = createProductCard(product);
+        container.appendChild(cardElement);
     });
 }

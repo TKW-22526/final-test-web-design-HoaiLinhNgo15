@@ -47,6 +47,7 @@
                                 <span class="label">Giá bán:</span>
                                 <span class="price"></span>
                             </div>
+                            <p class="info-status">Trạng thái: Đang tải...</p>
                             <button class="btn-buy" onclick="addProductToCart()">Thêm vào giỏ hàng</button>
                         </div>
                     </div>
@@ -84,11 +85,35 @@
                 document.getElementsByClassName("info-name")[0].innerText = spTimThay.name;
                 document.getElementsByClassName("price")[0].innerText =spTimThay.price.toLocaleString() + " " + spTimThay.currency;
                 document.getElementsByClassName("info-desc")[0].innerText = spTimThay.description;
+
+                const statusContainer = document.getElementsByClassName("info-status")[0];
+                if(statusContainer){
+                    if(spTimThay.status === "active"){
+                        statusContainer.innerText = "Trạng thái: Còn hàng";
+                        statusContainer.className = "info-status status-available";
+                    } else if(spTimThay.status === "inactive"){
+                        statusContainer.innerText = "Trạng thái: Tạm hết hàng";
+                        statusContainer.className = "info-status status-outofstock";
+                    } else{
+                        statusContainer.innerText = "Trạng thái: Ngừng kinh doanh";
+                        statusContainer.className = "info-status status-disabled";
+                    }
+                }
             }
             function addProductToCart(){
-                addToCart(spTimThay.id, spTimThay.name, spTimThay.price, spTimThay.image);
+                addToCart(spTimThay.id, spTimThay.name, spTimThay.price, spTimThay.image, spTimThay.status);
             }
-            function addToCart(productId, productName, productPrice, productImg) {
+            function addToCart(productId, productName, productPrice, productImg, productStatus) {
+                if(productStatus !=="active"){
+                    if(productStatus === "inactive"){
+                        alert("Sản phẩm này sắp về hàng. Xin vui lòng đợi thêm!");
+                        return;
+                    }
+                    else {
+                        alert("Sản phẩm này đã ngừng kinh doanh. Xin thông cảm!");
+                        return;
+                    }
+                }
                 // 1. Lấy giỏ hàng cũ ra, nếu chưa có thì tạo mảng rỗng []
                 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 

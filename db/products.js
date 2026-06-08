@@ -9,7 +9,7 @@ export const defaultproducts = [
     image: "../assets/laptop-acer-nitro5.jpg",
     link: "chi-tiet.html",
     description: "Acer Nitro 5 là chiếc laptop gaming được thiết kế dành cho những game thủ muốn trải nghiệm hiệu năng mạnh mẽ trong một mức giá hợp lý. Máy được trang bị bộ vi xử lý Intel Core i7 thế hệ mới, kết hợp cùng card đồ họa NVIDIA GeForce RTX 3060, mang lại khả năng xử lý mượt mà các tựa game AAA hiện nay. Màn hình 15.6 inch Full HD với tần số quét 144Hz giúp hình ảnh hiển thị sắc nét, chuyển động mượt mà, giảm thiểu hiện tượng xé hình. Bàn phím có đèn nền RGB cho phép người dùng tùy chỉnh phong cách riêng, đồng thời mang lại cảm giác gõ chắc chắn. Hệ thống tản nhiệt CoolBoost độc quyền của Acer giúp duy trì nhiệt độ ổn định ngay cả khi chơi game nặng trong thời gian dài. Ngoài ra, Nitro 5 còn hỗ trợ kết nối Wi-Fi 6, cổng USB Type-C, HDMI, và nhiều tùy chọn mở rộng khác. Với thiết kế mạnh mẽ, hiệu năng vượt trội, và giá thành hợp lý, Acer Nitro 5 là lựa chọn hoàn hảo cho những ai muốn bước vào thế giới gaming chuyên nghiệp mà không cần đầu tư quá nhiều chi phí.",
-    status: "active"
+    status: "inactive"
   },
   {
     id: "p002",
@@ -19,7 +19,7 @@ export const defaultproducts = [
     image: "../assets/samsung-galaxy-s23-ultra.jpg",
     link: "chi-tiet.html",
     description: "Samsung Galaxy S23 Ultra là chiếc flagship hội tụ những công nghệ tiên tiến nhất của Samsung. Máy sở hữu màn hình Dynamic AMOLED 2X 6.8 inch với độ phân giải QHD+ và tần số quét 120Hz, mang lại trải nghiệm hình ảnh cực kỳ sắc nét và mượt mà. Camera chính 200MP kết hợp cùng hệ thống camera phụ đa dạng giúp người dùng chụp ảnh chi tiết, quay video 8K và zoom quang học 10x. Hiệu năng mạnh mẽ đến từ chip Snapdragon 8 Gen 2, RAM 12GB và bộ nhớ trong lên đến 1TB, đáp ứng mọi nhu cầu từ chơi game, chỉnh sửa video cho đến làm việc đa nhiệm. Pin dung lượng 5000mAh hỗ trợ sạc nhanh 45W, sạc không dây và chia sẻ pin cho thiết bị khác. Galaxy S23 Ultra còn tích hợp bút S Pen, giúp ghi chú, vẽ và thao tác nhanh chóng. Với thiết kế sang trọng, khung viền kim loại chắc chắn, khả năng chống nước IP68, đây là chiếc smartphone hoàn hảo cho người dùng cao cấp.",
-    status: "active"
+    status: "ngungban"
   },
   {
     id: "p003",
